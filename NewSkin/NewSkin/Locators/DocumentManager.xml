@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<document-manager>
+  <save-button>//button[@title="Save"]</save-button>
+  <save-button2>//a[@title="Save"]</save-button2>
+  <save-button3>//input[@title="Save"]</save-button3>
+  <save-button4>//input[@value="Save"]</save-button4>
+  <cancel-button>//a[@title="Cancel"]</cancel-button>
+  <required-message>//label[text()="This field is required."]</required-message>
+  <invalid-file>//span[text()="Invalid file Extension!"]</invalid-file>
+
+  <activities-tab>//a[@title="Activities"]</activities-tab>
+  <documents-link>//a[@title="Documents"]</documents-link>
+
+  <create-button>//a[@title="Create New Document"]</create-button>
+  <delete-button>//a[@title="Delete"]</delete-button>
+  <recycle-button>//a[@title="Recycled Documents"]</recycle-button>
+  <create-name type="id">DocumentName</create-name>
+  <upload-button type ="id">DocumentFile</upload-button>
+  <last-entry>(//a[contains(., "Document ")])[1]</last-entry>
+  <doc-check-box>//input[contains(@id, "jqg_list1")][1]</doc-check-box>
+  <permanent-delete>(//a[@title="Delete Document Permenantly"])[1]</permanent-delete>
+  <restore>(//a[@title="Restore This Document"])[1]</restore>
+
+  <edit-button>(//a[@title="Edit Document"])[last()]</edit-button>
+  <add-new-version type="id">adddocument</add-new-version>
+  <new-version-window>//h3[text()="Add New Version"]</new-version-window>
+  <new-version-comment type="id">DocumentComment</new-version-comment>
+  <new-version-upload type="id">DocumentFile</new-version-upload>
+  <new-version-delete>(//a[@title="Delete Document"])[1]</new-version-delete>
+
+  <clients-tab>//a[@title="Clients"]</clients-tab>
+  <client>//tbody/tr[@tabindex="-1"]/td/a</client>
+  <add-doc-button type="id">adddocument1</add-doc-button>
+  <add-doc-window>//h3[text()="Add Document"]</add-doc-window>
+  <add-doc-name type="id">DocumentName</add-doc-name>
+  <add-doc-upload type="id">DocumentFiles</add-doc-upload>
+</document-manager>

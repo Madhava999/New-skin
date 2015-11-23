@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<universal-residual>
+  <master-data-menu>//a[@title="Master Data" and .//span[text()="Master Data"]]</master-data-menu>
+  <processors-link>//a[text()="Processors"]</processors-link>
+
+  <residual-income-menu>//a[@title="Residual Income"]</residual-income-menu>
+  <residual-import-link>//a[text()="Imports"]</residual-import-link>
+
+  <!-- Locators for the table of processors. -->
+  <processors>
+    <edit-button>//tr[.//a[text()="{0}"]]//a[@title="Edit Processor"]</edit-button>
+    <save-button>//a[@title="Save"]</save-button>
+    <create-button>//a[@title="Create New Processor"]</create-button>
+    <name-field type="id">CorporateMasterProcessorProcessorName</name-field>
+    <code-field type="id">CorporateMasterProcessorProcessorCode</code-field>
+    <delete-button>//tr[.//a[text()="{0}"]]//a[@title="Delete Processor"]</delete-button>
+    <validation-label>//label[text()="This field is required."]</validation-label>
+  </processors>
+
+  <residuals>
+    <!-- This is the button to go to the import page, not the import button in that page.-->
+    <import-button>//a[contains(text(), "Import New")]</import-button>
+
+    <!-- Locators for the residuals import page.-->
+    <import>
+      <processor type="id">ImportIndexProcessor</processor>
+      <file-date type="id">ImportIndexFileDate</file-date>
+      <calendar-days type="class">day</calendar-days>
+      <file type="id">ImportIndexCsvFile</file>
+      <import-button>//button[contains(text(), "Import")]</import-button>
+      <process-button>//a[text()="Process"]</process-button>
+      <previous-mappings>//*[@id="ImportIndexMappingType"]/option[text()!="Select"]</previous-mappings>
+      <previous-mappings-dropdown type="id">ImportIndexMappingType</previous-mappings-dropdown>
+    </import>
+
+    <delete-button>//a[@title="Delete Imported File"]</delete-button>
+    <download-button>//a[@title="Download Imported File"]</download-button>
+  </residuals>
+</universal-residual>

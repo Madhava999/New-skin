@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<equipment-management>
+  <equipment-tab>//a[@title="Equipment"]</equipment-tab>
+  <save-button>//button[@title="Save"]</save-button>
+  <cancel-button>//a[@title="Cancel"]</cancel-button>
+  <required-message>//label[text()="This field is required."]</required-message>
+  <invalid-url-message>//label[text()="Please enter a valid URL."]</invalid-url-message>
+  <invalid-url-message2>//span[text()=" Please enter a valid URL."]</invalid-url-message2>
+  <invalid-email-message>//label[text()="Please enter a valid email address."]</invalid-email-message>
+
+  <equip-link>//a[text()="Equipment"]</equip-link>
+  <equip-create-button>//a[@title="Create Equipment"]</equip-create-button>
+  <equip-save-button>//input[@title="Save"]</equip-save-button>
+  <equip-name-field>//input[@id="EquipmentName"]</equip-name-field>
+  <equip-type-field type="id">EquipmentType</equip-type-field>
+  <equip-version-field type="id">EquipmentVersion0Version</equip-version-field>
+  <equip-add-another-button>//a[@title="Add Another"]</equip-add-another-button>
+  <equip-another-field type="id">EquipmentVersion</equip-another-field>
+
+  <vendor-link>//a[contains(., 'Vendors')]</vendor-link>
+  <vendor-create-button>//a[@title="Create New Vendor"]</vendor-create-button>
+  <vendor-type type="id">VendorType</vendor-type>
+  <vendor-name type="id">VendorName</vendor-name>
+  <vendor-first type="id">VendorFirstName</vendor-first>
+  <vendor-last type="id">VendorLastName</vendor-last>
+  <vendor-etype type="id">VendorElectronicAddress0ElectronicContentType</vendor-etype>
+  <vendor-elabel type="id">VendorElectronicAddress0ElectronicContentLabel</vendor-elabel>
+  <vendor-eaddress type="id">VendorElectronicAddress0ElectronicContent</vendor-eaddress>
+  <vendor-website type="id">VendorWebsite</vendor-website>
+  <vendor-linkedin type="id">VendorLinkedinUrl</vendor-linkedin>
+  <vendor-facebook type="id">VendorFacebookUrl</vendor-facebook>
+  <vendor-twitter type="id">VendorTwitterUrl</vendor-twitter>
+
+  <downloadid-link>//a[contains(., 'Download IDs')]</downloadid-link>
+  <downloadid-create-button>//a[@title="Create New Equipment Type"]</downloadid-create-button>
+  <downloadid-type type="id">EquipmentDownloadIdDownloadIdType</downloadid-type>
+  <downloadid-name type="id">EquipmentDownloadIdDownloadIdName</downloadid-name>
+  <downloadid-id type="id">EquipmentDownloadIdDownloadId</downloadid-id>
+
+  <shipping-link>//a[contains(., 'Shipping Carriers')]</shipping-link>
+  <shipping-create-button>//a[@title="Create New Shipping Carrier"]</shipping-create-button>
+  <shipping-name type="id">EquipmentShippingCarrierName</shipping-name>
+  <shipping-website type="id">EquipmentShippingCarrierWebsite</shipping-website>
+  <shipping-tracking type="id">login</shipping-tracking>
+</equipment-management>

@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Locators>
+  <Navigate>
+    <UserIcon><![CDATA[//a[contains(@href,'#')]]]></UserIcon>
+    <ProfileTab><![CDATA[//a[text()="Profile"]]]></ProfileTab>
+    <ClientsTab><![CDATA[(//a[@title="Clients"])[1]]]></ClientsTab>
+    <LeadsTab><![CDATA[(//a[@title="Leads"])[1]]]></LeadsTab>
+    <TicketsTab><![CDATA[//*[@title="Tickets"]]]></TicketsTab>
+    <OpportunitiesTab><![CDATA[//*[@title="Opportunities"]]]></OpportunitiesTab>
+    <CreateAnOpportunityTab><![CDATA[//*[@title="Create an Opportunity"]]]></CreateAnOpportunityTab>
+    <ActivitiesTab><![CDATA[//*[@title="Activities"]]]></ActivitiesTab>
+    <TasksTab><![CDATA[//*[@title="Tasks"]]]></TasksTab>
+    <ClickCreateATask><![CDATA[//*[@title="Create a Task"]]]></ClickCreateATask>
+    <SaveButton><![CDATA[//*[@title="Save"]]]></SaveButton>
+    <ConvertButton><![CDATA[//a[.//text()="Convert"]]]></ConvertButton>
+    <CancelButton><![CDATA[//*[@title="Cancel"]]]></CancelButton>
+    <MeetingsTab><![CDATA[//*[@title="Meetings"]]]></MeetingsTab>
+    <ClickCreateAMeeting><![CDATA[//*[@title="Create a Meeting"]]]></ClickCreateAMeeting>
+    <CompanyDetailsTab><![CDATA[//a[text()="Company Details"]]]></CompanyDetailsTab>
+  </Navigate>
+  <Edit>
+    <EditProfileButton><![CDATA[//a[@title="Edit Profile"]]]></EditProfileButton>
+    <EnterAgentFirstName><![CDATA[//*[@id="EmployeeFirstName"]]]></EnterAgentFirstName>
+    <SettingsButton><![CDATA[//a[text()="Settings"]]]></SettingsButton>
+    <SelectNameFormat><![CDATA[//*[@id="Setting0Value"]]]></SelectNameFormat>
+    <SaveSettingsButton><![CDATA[//a[.//text()=" Save"]]]></SaveSettingsButton>
+  </Edit>
+  <Tickets>
+    <ClickCreateATicket><![CDATA[//a[text()="Create a Ticket"]]]></ClickCreateATicket>
+    <EnterName><![CDATA[//*[@id="TicketName"]]]></EnterName>
+    <SelectClientButton><![CDATA[//*[@id="assignrecord"]]]></SelectClientButton>
+    <ChooseClient><![CDATA[//a[text()="Chy Company"]]]></ChooseClient>
+    <EnterIntoSearchByIDBox><![CDATA[//*[@id="ClientId"]]]></EnterIntoSearchByIDBox>
+    <EnterIntoSearchByNameBox><![CDATA[//*[@id="ClientCompanyDbaName"]]]></EnterIntoSearchByNameBox>
+    <ClickSearchButton><![CDATA[//*[@id="searchButton"]]]></ClickSearchButton>
+    <SelectAssignedTo><![CDATA[//*[@id="TicketAssignedUserId"]]]></SelectAssignedTo>
+    <SelectCategory><![CDATA[//*[@id="TicketCategory"]]]></SelectCategory>
+    <SelectStatus><![CDATA[//*[@id="TicketStatus"]]]></SelectStatus>
+    <ClickOnTicket><![CDATA[//a[text()='Test Ticket 201508071354200996']]]></ClickOnTicket>
+  </Tickets>
+  <CreateATask>
+    <ClickStartDateBox><![CDATA[//*[@id="TaskStartDate"]]]></ClickStartDateBox>
+    <ChooseStartDate><![CDATA[//td[text()="15"]]]></ChooseStartDate>
+    <ClickDueDateBox><![CDATA[//*[@id="TaskDueDate"]]]></ClickDueDateBox>
+    <ChooseDueDate><![CDATA[//td[text()="15"]]]></ChooseDueDate>
+    <ClickSaveButton><![CDATA[//*[@title="Save"]]]></ClickSaveButton>
+    <EnterSubject><![CDATA[//*[@id="TaskName"]]]></EnterSubject>
+    <ChooseFutureStartDate><![CDATA[//td[contains(@class,'day') and text()='15']]]></ChooseFutureStartDate>
+    <ChooseFutureDueDate><![CDATA[//td[contains(@class,'day') and text()='15']]]></ChooseFutureDueDate>
+    <ChoosePastStartDate><![CDATA[//td[contains(@class,'day') and text()='13']]]></ChoosePastStartDate>
+    <ChoosePastDueDate><![CDATA[//td[contains(@class,'day') and text()='13']]]></ChoosePastDueDate>
+    <ViewCalendarTasks><![CDATA[//*[@id="meetings"]/div[2]/div/table/tbody/tr/td/div/div/div[1]/div[2]/table/tbody/tr[2]/td[1]/a/div/span]]></ViewCalendarTasks>
+    <ChooseFirstCalendarStartDay><![CDATA[//html/body/div[5]/div[1]/table/tbody/tr[1]/td[1]]]></ChooseFirstCalendarStartDay>
+    <ChooseFirstCalendarEndDay><![CDATA[//html/body/div[5]/div[1]/table/tbody/tr[1]/td[2]]]></ChooseFirstCalendarEndDay>
+  </CreateATask>
+  <CreateAMeeting>
+    <ClickStartDateBox><![CDATA[//*[@id="MeetingStartDate"]]]></ClickStartDateBox>
+    <ChooseStartDate><![CDATA[//td[text()="15"]]]></ChooseStartDate>
+    <ClickEndDateBox><![CDATA[//*[@id="MeetingEndDate"]]]></ClickEndDateBox>
+    <ChooseEndDate><![CDATA[//td[text()="15"]]]></ChooseEndDate>
+    <ClickSaveButton><![CDATA[//*[@title="Save"]]]></ClickSaveButton>
+    <EnterSubject><![CDATA[//*[@id="MeetingName"]]]></EnterSubject>
+    <SelectFromRelatedToBox><![CDATA[//*[@id="MeetingParentType"]]]></SelectFromRelatedToBox>
+    <SelectTypeClient><![CDATA[//option[text()="Client"]]]></SelectTypeClient>
+    <ClickChooseClient><![CDATA[//*[@id="assignParent"]]]></ClickChooseClient>
+    <ChooseClient><![CDATA[//a[text()="Chy Company"]]]></ChooseClient>
+    <ClickNewMeeting><![CDATA[//*[@title="New Meeting"]]]></ClickNewMeeting>
+    <VerifyRelatedToValue><![CDATA[//*[@id="MeetingParentName"]]]></VerifyRelatedToValue>
+    <SelectMeeting><![CDATA[//*[@title='Test Meeting 201507151420124174']]]></SelectMeeting>
+    <ClickPopupReminder><![CDATA[//*[@value="popup"]]]></ClickPopupReminder>
+    <ClickEmailReminder><![CDATA[//*[@value="email"]]]></ClickEmailReminder>
+    <ClickPopupReminderSelectionBox><![CDATA[//*[@id="popupdiv"]/select]]></ClickPopupReminderSelectionBox>
+    <ClickEmailReminderSelectionBox><![CDATA[//*[@id="emaildiv"]/select]]></ClickEmailReminderSelectionBox>
+    <SelectPopupTime><![CDATA[//*[@id="popupdiv"]/select/option[4]]]></SelectPopupTime>
+    <SelectEmailTime><![CDATA[//*[@id="emaildiv"]/select/option[4]]]></SelectEmailTime>
+    <ViewCalendarMeetings><![CDATA[//*[@id="meetings"]/div[2]/div/table/tbody/tr/td/div/div/div[1]/div[2]/table/tbody/tr[1]/td[1]/a/div/span]]></ViewCalendarMeetings>
+    <ChooseFirstCalendarDay><![CDATA[//html/body/div[5]/div[1]/table/tbody/tr[1]/td[1]]]></ChooseFirstCalendarDay>
+    <ChooseTodaysDate><![CDATA[//td[text()='15']]]></ChooseTodaysDate>
+    <ChooseFirstEndDate><![CDATA[//td[contains(@class,'day') and text()='13']]]></ChooseFirstEndDate>
+    <EnterIntoSearchByNameBox><![CDATA[//*[@id="ClientCompanyDbaName"]]]></EnterIntoSearchByNameBox>
+    <ClickSearchButton><![CDATA[//*[@id="searchButton"]]]></ClickSearchButton>
+  </CreateAMeeting>
+  <Emails>
+    <SearchForCompanyLead><![CDATA[//*[@id="gs_company_name"]]]></SearchForCompanyLead>
+    <SearchForCompanyClient><![CDATA[//*[@id="gs_company_dba_name"]]]></SearchForCompanyClient>
+    <ChooseClient><![CDATA[//a[text()="Chy Company"]]]></ChooseClient>
+    <SendEmailButton><![CDATA[//a[@title="Send E-Mail"]]]></SendEmailButton>
+    <EnterSubject><![CDATA[//*[@id="EmailName"]]]></EnterSubject>
+    <SaveEmailButton><![CDATA[(//a[.//text()=" Send"])[2]]]></SaveEmailButton>
+  </Emails>
+  <Opportunities>
+    <EditButton><![CDATA[//a[@title='Edit Opportunity']]]></EditButton>
+    <EnterOppName><![CDATA[//*[@id="OpportunityDetailOpportunityName"]]]></EnterOppName>
+    <EnterCompanyName><![CDATA[//*[@id="OpportunityDetailCompanyName"]]]></EnterCompanyName>
+    <SelectStatus><![CDATA[//*[@id="OpportunityStatus"]]]></SelectStatus>
+    <SelectResponsibility><![CDATA[//*[@id="OpportunityAssignedUserId"]]]></SelectResponsibility>
+    <ChooseOpp><![CDATA[//a[text()='Test Company 201508071518135808']]]></ChooseOpp>
+    <ConvertToLead><![CDATA[//*[@id="OpportunityConversionTargetModuleId14"]]]></ConvertToLead>
+    <ConvertToClient><![CDATA[//*[@id="OpportunityConversionTargetModuleId20"]]]></ConvertToClient>
+    <SaveConversion><![CDATA[//*[@id="convert-submit"]]]></SaveConversion>
+  </Opportunities>
+  <Leads>
+    <EditButton><![CDATA[//a[@title='Edit Opportunity']]]></EditButton>
+    <CreateALeadButton><![CDATA[//a[@title="Create a Lead"]]]></CreateALeadButton>
+    <EnterFirstName><![CDATA[//*[@id="LeadDetailFirstName"]]]></EnterFirstName>
+    <EnterLastName><![CDATA[//*[@id="LeadDetailLastName"]]]></EnterLastName>
+    <EnterCompanyName><![CDATA[//*[@id="LeadDetailCompanyName"]]]></EnterCompanyName>
+    <SelectStatus><![CDATA[//*[@id="LeadStatus"]]]></SelectStatus>
+    <SelectResponsibility><![CDATA[//*[@id="LeadAssignedUserId"]]]></SelectResponsibility>
+    <CompanyDetailsTab><![CDATA[//a[text()='Company Details']]]></CompanyDetailsTab>
+    <AssignmentsAndTemplatesTab><![CDATA[//a[text()='Assignments & Templates']]]></AssignmentsAndTemplatesTab>
+    <ChooseLead><![CDATA[//a[text()='Test Company 201508071518519085']]]></ChooseLead>
+    <SaveConversion><![CDATA[//button[.//text()=" Save"]]]></SaveConversion>
+  </Leads>
+  <Clients>
+    <EditButton><![CDATA[//a[@title='Edit Client']]]></EditButton>
+    <CreateAClientButton><![CDATA[//a[@title="Create a Client"]]]></CreateAClientButton>
+    <EnterCompanyDBAName><![CDATA[//*[@id="ClientDetailCompanyDbaName"]]]></EnterCompanyDBAName>
+    <EnterCompanyLegalName><![CDATA[//*[@id="ClientDetailCompanyLegalName"]]]></EnterCompanyLegalName>
+    <SelectStatus><![CDATA[//*[@id="ClientStatus"]]]></SelectStatus>
+    <SelectResponsibility><![CDATA[//*[@id="ClientAssignedUserId"]]]></SelectResponsibility>
+    <CompanyDetailsTab><![CDATA[//a[text()='Company Details']]]></CompanyDetailsTab>
+    <AssignmentsAndTemplatesTab><![CDATA[//a[text()='Assignments & Templates']]]></AssignmentsAndTemplatesTab>
+    <ChooseClient><![CDATA[//a[text()='Test Company 201508071516110275']]]></ChooseClient>
+  </Clients>
+  <Search>
+    <SearchForCompanyLead><![CDATA[//*[@id="gs_company_name"]]]></SearchForCompanyLead>
+    <SearchForCompanyClient><![CDATA[//*[@id="gs_company_dba_name"]]]></SearchForCompanyClient>
+  </Search>
+</Locators>

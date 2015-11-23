@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<iframe>
+  <save-button>//button[@title="Save"]</save-button>
+  <cancel-button>//a[@title="Cancel"]</cancel-button>
+  
+  <integration-tab>//a[@title="Integrations"]</integration-tab>
+  <iframe-link>//a[text()="Iframe Apps"]</iframe-link>
+  <first-entry-name>//tbody/tr/td[@aria-describedby="list1_name"][1]</first-entry-name>
+  <entries>//tbody/tr[@tabindex="-1"]</entries>
+  <delete>//a[@title="Delete Permanently"]</delete>
+
+  <create-button>//a[@title="Create Iframe"]</create-button>
+  <iframe-name type="id">OrganizationIframeAppName</iframe-name>
+  <username type="id">OrganizationIframeAppUserParam</username>
+  <password type="id">OrganizationIframeAppPasswordParam</password>
+  <login type="id">login</login>
+  <forgot type="id">forgot</forgot>
+  <create type="id">create</create>
+  <valid-domain>//label[text()="Not a valid domain."]</valid-domain>
+  <appear type="id">OrganizationIframeAppEmployee</appear>
+  
+  <search-name type="id">gs_name</search-name>
+  <iframe2>//tbody/tr/td[text()="iFrame 2"]</iframe2>
+
+  <edit-button>//a[@title="Edit Iframe"][1]</edit-button>
+  <delete-button>//a[@title="Delete Permanently"][1]</delete-button>
+  <refresh-button type="id">reloadform</refresh-button>
+
+  <iframe1-tab>//a[@title="iFrame 1"]</iframe1-tab>
+  <iframe-login-page>//*[@id="page-wrapper"]//iframe</iframe-login-page>
+  <iframe-forgot>//a[text()="Forgot your username or password?"]</iframe-forgot>
+  <iframe-create-account>//a[text()="Create New Account"]</iframe-create-account>
+</iframe>

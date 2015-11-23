@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+  <AllDashboards> 
+    <HoverOverReportTab><![CDATA[//*[@id="menu"]/li[11]/a]]></HoverOverReportTab>
+    <HoverOverDashboardsTab><![CDATA[//a[text()="Dashboards "]]]></HoverOverDashboardsTab>
+    <!--HTML tags for the drop down menu after hover-->
+    <ClickOnAllDashboards><![CDATA[//a[text()="All Dashboards"]]]></ClickOnAllDashboards>
+  
+  </AllDashboards>
+
+  <CreateDashboard>
+    <HoverOverReportTab><![CDATA[//*[@id="menu"]/li[11]/a]]></HoverOverReportTab>
+    <HoverOverDashboardsTab><![CDATA[//a[text()="Dashboards "]]]></HoverOverDashboardsTab>
+    <!--HTML tags for the drop down menu after hover-->
+    <ClickOnCreateADashboard><![CDATA[//a[text()="Create a Dashboard"]]]></ClickOnCreateADashboard>
+
+    <ClickCreateButton><![CDATA[//a[text()=" Create"]]]></ClickCreateButton>
+    
+    <EnterName><![CDATA[//*[@id='DashboardName']]]></EnterName>
+  </CreateDashboard>
+
+  <Navigate>
+     <ClickNextButton><![CDATA[//button[text()=" Next"]]]></ClickNextButton>
+     <ClickSaveButton><![CDATA[//button[text()=" Save"]]]></ClickSaveButton>   
+    <ClickCancelButton><![CDATA[//a[text()=" Cancel"]]]></ClickCancelButton>
+  </Navigate>
+  
+  <ViewDashboard>
+    <!--HTML tag for clicking third dash on page-->
+    <ClickOnSingleDashboard3><![CDATA[//*[@id='list1']/tbody/tr[4]/td[5]/a]]></ClickOnSingleDashboard3>
+     <!--HTML tag for clicking second dash on page-->
+    <ClickOnSingleDashboard2><![CDATA[//*[@id='list1']/tbody/tr[3]/td[5]/a]]></ClickOnSingleDashboard2>
+    <!--HTML tag for clicking first dash on page-->
+    <ClickOnSingleDashboard1><![CDATA[//*[@id='list1']/tbody/tr[2]/td[5]/a]]></ClickOnSingleDashboard1>
+  </ViewDashboard>
+  
+  <EditDashboard>
+    <ClickPencil><![CDATA[(//a[@title="Edit Dashboard"])[1]]]></ClickPencil>
+    <!--OR-->
+    <ClickEditButton><![CDATA[//a[text()=" Edit"]]]></ClickEditButton>
+
+ </EditDashboard>
+  
+  <Reports>
+    <SelectReport1><![CDATA[(//input[@type="checkbox"])[2]]]></SelectReport1>
+    <SelectReport2><![CDATA[(//input[@type="checkbox"])[3]]]></SelectReport2>
+    <SelectReport3><![CDATA[(//input[@type="checkbox"])[4]]]></SelectReport3>
+  </Reports>
+  
+  
+  <Homepage>
+    <ClickSetHomepageLink><![CDATA[//a[text()="Set this Dashboard as My Home Page"]]]></ClickSetHomepageLink>
+    <!--OR-->
+    <ClickSetHomepageCheckBox><![CDATA[//*[@id="DashboardDefault"]]]></ClickSetHomepageCheckBox>
+    <!--OR-->
+    <ClickMakeDefaultButton><![CDATA[(//a[@title="Make Default"])[1]]]></ClickMakeDefaultButton>
+    
+    <ClickHomeButton><![CDATA[//a[title="Home"]]]></ClickHomeButton>  
+    
+    <RemoveAsHomepageLink><![CDATA[//a[text()="Remove this Dashboard as My Home Page"]]]></RemoveAsHomepageLink>
+  </Homepage>
+
+
+  <DashletSelections>
+    <ClickOtherDashletsMenu><![CDATA[//*[@id="createdashboardForm"]/div[3]/div[3]/div[1]/div[1]/div[1]/div[1]/a]]></ClickOtherDashletsMenu>
+   
+    <!--1st, 2nd, and 3rd checkboxes under Opportunities-->
+    <SelectOpportunityDashlet1><![CDATA[//*[@id="check_154"]]]></SelectOpportunityDashlet1>
+    <SelectOpportunityDashlet2><![CDATA[//*[@id="check_155"]]]></SelectOpportunityDashlet2>
+    <SelectOpportunityDashlet3><![CDATA[//*[@id="check_156"]]]></SelectOpportunityDashlet3>
+   
+    <!--1st, 2nd, and 3rd checkboxes under Leads-->
+    <SelectLeadsDashlet1><![CDATA[//*[@id="check_53"]]]></SelectLeadsDashlet1>
+    <SelectLeadsDashlet2><![CDATA[//*[@id="check_54"]]]></SelectLeadsDashlet2>
+    <SelectLeadsDashlet3><![CDATA[//*[@id="check_55"]]]></SelectLeadsDashlet3>
+    
+    <!--1st, 2nd, and 3rd checkboxes under Clients-->
+    <SelectClientsDashlet1><![CDATA[//*[@id="check_1"]]]></SelectClientsDashlet1>
+    <SelectClientsDashlet2><![CDATA[//*[@id="check_2"]]]></SelectClientsDashlet2>
+    <SelectClientsDashlet3><![CDATA[//*[@id="check_3"]]]></SelectClientsDashlet3>
+   
+    <!--1st checkboxes under Meetings, tasks, and Notes-->
+    <SelectActivitiesDashlet1><![CDATA[//*[@id="check_206"]]]></SelectActivitiesDashlet1>
+    <SelectActivitiesDashlet2><![CDATA[//*[@id="check_215"]]]></SelectActivitiesDashlet2>
+    <SelectActivitiesDashlet3><![CDATA[//*[@id="check_233"]]]></SelectActivitiesDashlet3>
+    
+    <!--Random Dashlet-->
+    <SelectTeamClientDashlet><![CDATA[//*[@id="check_34"]]]></SelectTeamClientDashlet>
+ 
+  </DashletSelections>
+
+  <PermissionSelections>
+    <ClickPermissionsMenu><![CDATA[//*[@id="createdashboardForm"]/div[3]/div[4]/div[1]/div[1]/div[1]/div[1]/a]]></ClickPermissionsMenu>
+    
+    <DeselectPerm6><![CDATA[//*[@id='permission6']]]></DeselectPerm6>
+    <DeselectPerm7><![CDATA[//*[@id='permission7']]]></DeselectPerm7>
+    <DeselectPerm9><![CDATA[//*[@id='permission9']]]></DeselectPerm9>
+    <DeselectPerm10><![CDATA[//*[@id='permission10']]]></DeselectPerm10>
+    <DeselectPerm12><![CDATA[//*[@id='permission12']]]></DeselectPerm12>
+    <DeselectPerm13><![CDATA[//*[@id='permission13']]]></DeselectPerm13>
+    <DeselectPerm15><![CDATA[//*[@id='permission15']]]></DeselectPerm15>
+    <DeselectPerm16><![CDATA[//*[@id='permission16']]]></DeselectPerm16>
+    
+  </PermissionSelections>
+
+  <Delete>
+    <!--Click trach can button for first dashboard on page-->
+    <ClickTrashCanButton1><![CDATA[(//a[@title="Delete Dashboard"])[1]]]></ClickTrashCanButton1>    
+
+  </Delete>
+</Locators>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LeadClientManagement>
+  <Leads>//a[@title="Leads"]</Leads>
+  <CreateButton>//a[@title="Create New Lead"]</CreateButton>
+  <Status type="id">LeadStatus</Status>
+  <Responsibility type="id">LeadAssignedUserId</Responsibility>
+  <CompanyDetailsTab>//a[text()="Company Details"]</CompanyDetailsTab>
+  <FirstName type="id">LeadDetailFirstName</FirstName>
+  <LastName type="id">LeadDetailLastName</LastName>
+  <CompanyName type="id">LeadDetailCompanyName</CompanyName>
+  <Save>//button[@title="Save"]</Save>
+  <LeadMessage>//div[text()="Lead saved successfully."]</LeadMessage>
+  <ConvertButton type="id">convert</ConvertButton>
+  <SelectLead>//a[text()="{0}"]</SelectLead>
+  <SaveButton>//button[text()=" Save"]</SaveButton>
+  <ConvertLeadPopUp>//h3[text()="Convert Lead"]</ConvertLeadPopUp>
+  <NoRecycleBin type="id">LeadConversionDelete0</NoRecycleBin>
+  <ImportLeads>//a[@title="Import Leads"]</ImportLeads>
+  <ChooseFile type="id">vcard_file</ChooseFile>
+  <ImportButton>//input[@value="Import"]</ImportButton>
+  <Radio>//input[@type="radio"]</Radio>
+  <MergeButton>//button[@title="Merge"]</MergeButton>
+  <ExportLeads>//a[@title="Export Leads"]</ExportLeads>
+  <CheckAll type="id">check-all</CheckAll>
+  <ExportButton>//button[@title="Export"]</ExportButton>
+  <RestoreLead>//a[@title="Restore This Lead"]</RestoreLead>
+  <RecycleBin>(//a[@title="Recycle Bin"])[2]</RecycleBin>
+  <CancelButton>//a[@title="Cancel"]</CancelButton>
+  <UploadImportFile>//h5[text()="Upload Import File "]</UploadImportFile>
+  <CloseButton>//button[text()=" Close"]</CloseButton>
+  <XButton>(//button[@class="close"])[4]</XButton>
+  <DownloadTemplate>//a[text()="Download"]</DownloadTemplate>
+  <SecondRadio>(//input[@type="radio"])[7]</SecondRadio>
+
+  
+</LeadClientManagement>

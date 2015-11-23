@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+  <Login>
+    <Username><![CDATA[//input[contains(@id, 'UserLoginUserName')]]]></Username>
+    <Password><![CDATA[//*[@id='UserLoginPasswordHash']]]></Password>
+    <Enter><![CDATA[//button[@type='submit']]]></Enter>
+  </Login>
+  <Logout>
+    <UserIcon><![CDATA[//a[contains(@href,'#')]]]></UserIcon>
+    <LogOff><![CDATA[//a[text()="Logout"]]]></LogOff>
+  </Logout>
+</Locators>

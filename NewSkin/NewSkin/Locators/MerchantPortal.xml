@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<merchantportal>
+  <clients>
+    <!-- Link to a client's iPage. -->
+    <client-link>//td[@aria-describedby="list1_company_dba_name"]/a</client-link>
+    <info-tab>//a[text()="Info"]</info-tab>
+    <pdfs-tab>//a[text()="PDFs"]</pdfs-tab>
+    <no-client-user-message>//td[text()="No client users created."]</no-client-user-message>
+    <pdfs>
+      <share-link>//a[text()="[Share]"]</share-link>
+      <create-user-title>//h3[text()="Create User"]</create-user-title>
+    </pdfs>
+
+    <contacts>
+      <tab>//a[text()="Contacts"]</tab>
+      <owner-first-name type="id">ClientOwner0ClientOwnerContactFirstName</owner-first-name>
+      <owner-last-name type="id">ClientOwner0ClientOwnerContactLastName</owner-last-name>
+      <owner-email type="id">ClientOwner0ClientOwnerContactElectronicAddress0ElectronicContent</owner-email>
+    </contacts>
+
+    <manage-create-button>//button[contains(text(), "Manage/Create")]</manage-create-button>
+    <add-user-button>//a[text()="Add User"]</add-user-button>
+    <password-field type="id">ClientAutopassword</password-field>
+    <notify-user-checkbox type="id">ClientNotifyUser</notify-user-checkbox>
+    <create-user-button>//a[./i[@title="Create user"]]</create-user-button>
+  </clients>
+
+  <merchant>
+    <sidebar>
+      <home>//a[@title="Home"]</home>
+      <fileshare>//a[@title="File Share"]</fileshare>
+      <tickets>
+        <self>//a[@title="Tickets"]</self>
+        <tickets>//a[text()="Tickets"]</tickets>
+        <draft>//a[text()="Drafts"]</draft>
+      </tickets>
+    </sidebar>
+
+    <signature-button>//a[text()="Signature Required"]</signature-button>
+    <documents-required-button>//a[text()="Documents Required"]</documents-required-button>
+    <signature-box type="id">signatureDiv</signature-box>
+    <view-document-button>//*[@title="View document"]</view-document-button>
+    <upload-button>//a[@title="Upload Documents" and contains(text(), "Upload")]</upload-button>
+
+    <file-share-header>//h5[text()="File Share"]</file-share-header>
+    <tickets-header>//h5[text()="Tickets"]</tickets-header>
+    <info-header>//h5[text()="Merchant Information"]</info-header>
+
+    <create-ticket-button>//a[@title="Create New Ticket"]</create-ticket-button>
+    <ticket-subject type="id">TicketName</ticket-subject>
+    <draft-button>//button[@title="Draft"]</draft-button>
+    <ticket-checkbox>//tr[.//a[text()="{0}"]]//input[@type="checkbox"]</ticket-checkbox>
+    <delete-ticket-button>//a[@title="Delete"]</delete-ticket-button>
+    <ticket-name>//a[text()="{0}"]</ticket-name>
+  </merchant>
+</merchantportal>

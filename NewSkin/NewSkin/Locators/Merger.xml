@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<merger>
+
+  <ClientsTab>//a[@title="Clients"]</ClientsTab>
+  <MergeRecordsButton type="id">mergeClients</MergeRecordsButton>
+  <CancelButton>//button[@title="cancel"]</CancelButton>
+  <MergeButton>//a[@title="Merge"]</MergeButton>
+  <ClientMergeForm type="id">ClientMergeForm</ClientMergeForm>
+  <PrimaryRecordRadio>//input[@value="55749"]</PrimaryRecordRadio>
+  <CompanyDBAName type="id">ClientDetailCompanyDbaName</CompanyDBAName>
+
+
+  <CreateClient>//a[@title="Create a Client"]</CreateClient>
+  <Status type="id">ClientStatus</Status>
+  <Responsibility type="id">ClientAssignedUserId</Responsibility>
+  <CompanyDetailsTab>//a[text()="Company Details"]</CompanyDetailsTab>
+
+  <Save>//button[@title="Save"]</Save>
+  <ClientCheckbox>//tr[contains(., "{0}")]//input[@type="checkbox"]</ClientCheckbox>
+  <Location type="id">ClientDetailInternationalLocation</Location>
+  
+</merger>

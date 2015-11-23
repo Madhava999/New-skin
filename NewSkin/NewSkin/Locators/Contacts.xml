@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<contacts>
+
+  <ContactTab>//a[@title="Contacts"]</ContactTab>
+  <CreateContactLink>//a[@title="Create a Contact"]</CreateContactLink>
+  <ImportContactLink>//a[@title="Import Contacts"]</ImportContactLink>
+  <ExportContactLink>//a[@title="Export Contacts"]</ExportContactLink>
+  <RecycleBinLink>//li[.//a[@title="Contacts"]]//a[@title="Recycle Bin"]</RecycleBinLink>
+
+  <FirstNameField type ="id">ContactFirstName</FirstNameField>
+  <LastNameField type ="id">ContactLastName</LastNameField>
+  <CompanyNameField type ="id">ContactCompanyName</CompanyNameField>
+  <PhoneTypeField type ="id">ContactPhone0PhoneType</PhoneTypeField>
+  <CountryCodeField type ="id">ContactPhone0PhoneCountryCode</CountryCodeField>
+  <PhoneNumberField type ="id">ContactPhone0PhoneNumber</PhoneNumberField>
+  <eAddressField type ="id">ContactElectronicAddress0ElectronicContent</eAddressField>
+  <AddressLineField type ="id">ContactAddress0AddressLine1</AddressLineField>
+  <CityField type ="id">ContactAddress0City</CityField>
+  <ZipCodeField type ="id">ContactAddress0PostalCode</ZipCodeField>
+
+  <Save>//form//button[@title="Save"]</Save>
+  <Cancel>//a[@title="Cancel"]</Cancel>
+
+  <SelectAllContactsButton type ="id">cb_list1</SelectAllContactsButton>
+  <ExportButton>//div[@title="Export"]</ExportButton>
+  <ExportAsCSV type ="id">export_csv</ExportAsCSV>
+  <ExportAsExcel type ="id">export_excel</ExportAsExcel>
+  <FirstNameExport type ="id">last_name</FirstNameExport>
+  <LastNameExport type ="id">first_name</LastNameExport>
+  <ChooseFile type="id">vcard_file</ChooseFile>
+  <ImportButton>//*[@type = "submit"]</ImportButton>
+  <DuplicateRecordsMessage>//h5[text()="Duplicate records has been found"]</DuplicateRecordsMessage>
+  <FirstContactCheck type ="id">jqg_list1_102871</FirstContactCheck>
+  <RecyclebinButton type ="id">recyclebin</RecyclebinButton>
+  <MyContactsButton>//button[@title="My Contacts"]</MyContactsButton>
+  <RecentlyAddedContacts>//a[@title="My Contacts Recently Added"]</RecentlyAddedContacts>
+  <EditContactButton>//span[@title="Edit"]</EditContactButton>
+  <ExitingContactsMessage>//h3[@text()="Existing Contacts"]</ExitingContactsMessage>
+  <CreateDuplicateButton>//button[text()="Create Duplicate"]</CreateDuplicateButton>
+  <SelectContact>//tr[contains(., "{0}")]//input[@type="checkbox"]</SelectContact>
+</contacts>

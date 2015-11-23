@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Locators>
+  <Navigate>
+    <HomeTab><![CDATA[//a[@title="Home"]]]></HomeTab>
+    <UserIcon><![CDATA[//a[contains(@href,'#')]]]></UserIcon>
+    <AdminTab><![CDATA[//a[text()="Admin"]]]></AdminTab>
+    <OfficeTab><![CDATA[//a[@title="Office"]]]></OfficeTab>
+    <UsersTab><![CDATA[//a[text()="Users"]]]></UsersTab>
+    <LeadsTab><![CDATA[//a[@title="Leads"]]]></LeadsTab>
+    <ClientsTab><![CDATA[//a[@title="Clients"]]]></ClientsTab>
+    <AgentsTab><![CDATA[//a[@title="Agents"]]]></AgentsTab>
+    <PartnerAgentsTab><![CDATA[//a[@title="Partner Agents"]]]></PartnerAgentsTab>
+    <SaveButton><![CDATA[//*[@title="Save"]]]></SaveButton>
+    <CancelButton><![CDATA[//*[@title="Cancel"]]]></CancelButton>
+    <PencilEditButton><![CDATA[//*[@id="list1"]/tbody/tr[2]/td[6]/span/a]]></PencilEditButton>
+  </Navigate>
+  <CreateALead>
+    <CreateALeadButton><![CDATA[//a[@title="Create New Lead"]]]></CreateALeadButton>
+    <EnterFirstName><![CDATA[//*[@id="LeadDetailFirstName"]]]></EnterFirstName>
+    <EnterLastName><![CDATA[//*[@id="LeadDetailLastName"]]]></EnterLastName>
+    <EnterCompanyName><![CDATA[//*[@id="LeadDetailCompanyName"]]]></EnterCompanyName>
+    <SelectSource><![CDATA[//*[@id="LeadReferralSource"]]]></SelectSource>
+    <SelectResponsibility><![CDATA[//*[@id="LeadAssignedUserId"]]]></SelectResponsibility>
+    <CheckLeadsTable><![CDATA[//tbody/tr[2]/td[12]/a]]></CheckLeadsTable>
+    <CheckLeadMainPage><![CDATA[//tbody/tr[2]/td[4]]]></CheckLeadMainPage>
+    <CheckClientMainPage><![CDATA[//tbody/tr[3]/td[3]]]></CheckClientMainPage>
+  </CreateALead>
+  <Edit>
+    <EditButton><![CDATA[//a[text()="Edit"]]]></EditButton>
+    <EnterAgentFirstName><![CDATA[//*[@id="PartnerAgentFirstName"]]]></EnterAgentFirstName>
+    <SaveButton><![CDATA[//*[@title="Save"]]]></SaveButton>
+  </Edit>
+  <AdminSection>
+    <CheckboxFirstCompany><![CDATA[(//input[@class='cbox'])[2]]]></CheckboxFirstCompany>
+    <DeleteButton><![CDATA[//a[@title='Delete']]]></DeleteButton>
+    <ConvertButton><![CDATA[//*[@id="convert"]]]></ConvertButton>
+    <PopupSaveButton><![CDATA[//button[@type="submit"]]]></PopupSaveButton>
+    <ClickOnLead><![CDATA[//a[text()='Test Company 201508071425595082']]]></ClickOnLead>
+    <RecycleBinLeads><![CDATA[//a[@title="Recycle Leads"]]]></RecycleBinLeads>
+    <RecycleBinClients><![CDATA[//a[@title="Recycle Clients"]]]></RecycleBinClients>
+    <DeleteClientPermanentlyButton><![CDATA[(//a[@title="Delete Client Permenantly"])[1]]]></DeleteClientPermanentlyButton>
+    <DeleteLeadPermanentlyButton><![CDATA[(//a[@title="Delete Lead Permanently"])[1]]]></DeleteLeadPermanentlyButton>
+    <CreateALeadLink><![CDATA[//a[@title="Create a Lead"]]]></CreateALeadLink>
+    <EnterFirstName><![CDATA[//*[@id="LeadDetailFirstName"]]]></EnterFirstName>
+    <EnterLastName><![CDATA[//*[@id="LeadDetailLastName"]]]></EnterLastName>
+    <EnterCompanyName><![CDATA[//*[@id="LeadDetailCompanyName"]]]></EnterCompanyName>
+    <SelectStatus><![CDATA[//*[@id="LeadStatus"]]]></SelectStatus>
+    <SelectPartner><![CDATA[//*[@id="LeadPartnerAgentId"]]]></SelectPartner>
+    <SelectPartnerAssociation><![CDATA[//*[@id="LeadPartnerAssociationId"]]]></SelectPartnerAssociation>
+    <SelectResponsibility><![CDATA[//*[@id="LeadAssignedUserId"]]]></SelectResponsibility>
+    <CompanyDetailsTab><![CDATA[//a[text()='Company Details']]]></CompanyDetailsTab>
+    <AssignmentsAndTemplatesTab><![CDATA[//a[text()='Assignments & Templates']]]></AssignmentsAndTemplatesTab>
+  </AdminSection>
+  <CreateUser>
+    <CreateUserButton><![CDATA[//a[.//text()="Create"]]]></CreateUserButton>
+    <SelectUserType><![CDATA[//*[@id="UserType"]]]></SelectUserType>
+    <SelectCreateNew><![CDATA[//*[@id="EmployeeCreatenew1"]]]></SelectCreateNew>
+    <CreatePartnerAgentButton><![CDATA[//a[@title='Create New Partner Agent']]]></CreatePartnerAgentButton>
+    <SelectEAddressType><![CDATA[//*[@id="PartnerAgentElectronicAddress0ElectronicContentType"]]]></SelectEAddressType>
+    <SelectEAddressLabel><![CDATA[//*[@id="PartnerAgentElectronicAddress0ElectronicContentLabel"]]]></SelectEAddressLabel>
+    <EnterFirstName><![CDATA[//*[@id="EmployeeFirstName"]]]></EnterFirstName>
+    <EnterLastName><![CDATA[//*[@id="EmployeeLastName"]]]></EnterLastName>
+    <EnterEAddress><![CDATA[//*[@id="EmployeePrimaryEmail"]]]></EnterEAddress>
+    <CreateUserCheckbox><![CDATA[//*[@id="UserCreateUser"]]]></CreateUserCheckbox>
+    <OpenUserSection><![CDATA[//*[@id="PartnerAgentAgentCreateForm"]/div[3]/div[3]/div/div/div[1]/div]]></OpenUserSection>
+    <UncheckAutoGen><![CDATA[//*[@id="UserAutogenerate"]]]></UncheckAutoGen>
+    <CheckDoNotSend><![CDATA[//*[@id="EmployeeSendverification"]]]></CheckDoNotSend>
+    <CheckPartnerUser><![CDATA[//*[@id="1245"]]]></CheckPartnerUser>
+    <EnterUsername><![CDATA[//*[@id="UserUserName"]]]></EnterUsername>
+    <EnterPassword><![CDATA[//*[@id="UserPassword"]]]></EnterPassword>
+    <ClickPartnerAgentName><![CDATA[//a[text()='Tester2404 Tester2404']]]></ClickPartnerAgentName>
+    <DisableButton1><![CDATA[//a[@title='Disable this user']]]></DisableButton1>
+    <DisableButton2><![CDATA[//a[@title='Disable']]]></DisableButton2>
+  </CreateUser>
+</Locators>

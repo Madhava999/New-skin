@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Themes>
+  <Colors>//link[contains(@href, "style_custom")]</Colors>
+  <SystemTab>//a[@title="System"]</SystemTab>
+  <Themes>//a[text()="Themes"]</Themes>
+  <EditTheme>//a[@title="Edit"]</EditTheme>
+
+  <!-- Color Settings -->
+  <ColorDropdown>//div[./label[text()="{0}"]]/div/div</ColorDropdown>
+  <ColorInput>//input[@class="sp-input"]</ColorInput>
+  
+  <!--Font Setting Colors -->
+  <BreadcrumbsFontColor>(//div[./label[text()="Font Color"]]/div/div)[1]</BreadcrumbsFontColor>
+  <TabsFontColor>(//div[./label[text()="Font Color"]]/div/div)[2]</TabsFontColor>
+  <WidgetHeadingFontColor>(//div[./label[text()="Font Color"]]/div/div)[3]</WidgetHeadingFontColor>
+  <FormSectionFontColor>(//div[./label[text()="Font Color"]]/div/div)[4]</FormSectionFontColor>
+  <FormLabelFontColor>(//div[./label[text()="Font Color"]]/div/div)[5]</FormLabelFontColor>
+  <FormInputFontColor>(//div[./label[text()="Font Color"]]/div/div)[6]</FormInputFontColor>
+  <ViewLabelFontColor>(//div[./label[text()="Font Color"]]/div/div)[7]</ViewLabelFontColor>
+  <NormalTextFontColor>(//div[./label[text()="Font Color"]]/div/div)[8]</NormalTextFontColor>
+  
+  <!-- Font types, weight, and size -->
+  <LeftMenuBarFontSize>(//select[@class="form-control"])[1]</LeftMenuBarFontSize>
+  <LeftMenuBarFontType>(//select[@class="form-control"])[2]</LeftMenuBarFontType>
+  <LeftMenuBarFontWeight>(//select[@class="form-control"])[3]</LeftMenuBarFontWeight>
+  <LeftMenuBarActiveFontSize>(//select[@class="form-control"])[4]</LeftMenuBarActiveFontSize>
+  <LeftMenuBarActiveFontType>(//select[@class="form-control"])[5]</LeftMenuBarActiveFontType>
+  <LeftMenuBarActiveFontWeight>(//select[@class="form-control"])[6]</LeftMenuBarActiveFontWeight>
+  <NavigationLinksFontSize>(//select[@class="form-control"])[7]</NavigationLinksFontSize>
+  <NavigationLinksFontType>(//select[@class="form-control"])[8]</NavigationLinksFontType>
+  <NavigationLinksFontWeight>(//select[@class="form-control"])[9]</NavigationLinksFontWeight>
+  
+  <FontDropdown>//div[./label[contains(., "{0}")]]//select</FontDropdown>
+
+  <BreadcrumbsFS type="id">ThemeOption27Value</BreadcrumbsFS>
+  <BreadcrumbsFT type="id">ThemeOption28Value</BreadcrumbsFT>
+  <BreadcrumbsFW type="id">ThemeOption29Value</BreadcrumbsFW>
+  <TabsFS type="id">ThemeOption31Value</TabsFS>
+  <TabsFT type="id">ThemeOption32Value</TabsFT>
+  <TabsFW type="id">ThemeOption33Value</TabsFW>
+  <WidgetFS type="id">ThemeOption35Value</WidgetFS>
+  <WidgetFT type="id">ThemeOption36Value</WidgetFT>
+  <WidgetFW type="id">ThemeOption37Value</WidgetFW>
+  <FormSectionFS type="id">ThemeOption39Value</FormSectionFS>
+  <FormSectionFT type="id">ThemeOption40Value</FormSectionFT>
+  <FormSectionFW type="id">ThemeOption41Value</FormSectionFW>
+  <FormLabelFS type="id">ThemeOption43Value</FormLabelFS>
+  <FormLabelFT type="id">ThemeOption44Value</FormLabelFT>
+  <FormLabelFW type="id">ThemeOption45Value</FormLabelFW>
+  <FormInputFS type="id">ThemeOption47Value</FormInputFS>
+  <FormInputFT type="id">ThemeOption48Value</FormInputFT>
+  <FormInputFW type="id">ThemeOption49Value</FormInputFW>
+  <ViewLabelFS type="id">ThemeOption51Value</ViewLabelFS>
+  <ViewLabelFT type="id">ThemeOption52Value</ViewLabelFT>
+  <ViewLabelFW type="id">ThemeOption53Value</ViewLabelFW>
+  <NormalTextFS type="id">ThemeOption55Value</NormalTextFS>
+  <NormalTextFT type="id">ThemeOption56Value</NormalTextFT>
+  <NormalTextFW type="id">ThemeOption57Value</NormalTextFW>
+
+  <!--   Menu/Navigation Font Settings    --> 
+  <LeftMenuBarFontSize type="id">CorporateThemeOption15Value</LeftMenuBarFontSize>
+  <LeftMenuBarActiveFontSize type ="id">CorporateThemeOption19Value</LeftMenuBarActiveFontSize>
+  <NavigationLinksFontSize type="id">CorporateThemeOption23Value</NavigationLinksFontSize>
+  <LeftMenuBarFontType type="id">CorporateThemeOption16Value</LeftMenuBarFontType>
+  <LeftMenuBarActiveFontType type="id">CorporateThemeOption20Value</LeftMenuBarActiveFontType>
+  <NavigationLinksFontType type="id">CorporateThemeOption24Value</NavigationLinksFontType>
+  <LeftMenuBarFontWeight type="id">CorporateThemeOption17Value</LeftMenuBarFontWeight>
+  <LeftMenuBarActiveFontWeight type="id">CorporateThemeOption21Value</LeftMenuBarActiveFontWeight>
+  <NavigationLinksFontWeight type="id">CorporateThemeOption25Value</NavigationLinksFontWeight>
+
+  <!--   Font Settings    -->
+  <BreadcrumbsFS type="id">CorporateThemeOption27Value</BreadcrumbsFS>
+  <BreadcrumbsFT type="id">CorporateThemeOption28Value</BreadcrumbsFT>
+  <BreadcrumbsFW type="id">CorporateThemeOption29Value</BreadcrumbsFW>
+
+  <TabsFS type="id">CorporateThemeOption31Value</TabsFS>
+  <TabsFT type="id">CorporateThemeOption32Value</TabsFT>
+  <TabsFW type="id">CorporateThemeOption33Value</TabsFW>
+
+  <WidgetHeadingFS type="id">CorporateThemeOption35Value</WidgetHeadingFS>
+  <WidgetHeadingFT type="id">CorporateThemeOption36Value</WidgetHeadingFT>
+  <WidgetHeadingFW type="id">CorporateThemeOption37Value</WidgetHeadingFW>
+
+  <FormSectionFS type="id">CorporateThemeOption39Value</FormSectionFS>
+  <FormSectionFT type="id">CorporateThemeOption40Value</FormSectionFT>
+  <FormSectionFW type="id">CorporateThemeOption41Value</FormSectionFW>
+
+  <FormLabelFS type="id">CorporateThemeOption43Value</FormLabelFS>
+  <FormLabelFT type="id">CorporateThemeOption44Value</FormLabelFT>
+  <FormLabelFW type="id">CorporateThemeOption45Value</FormLabelFW>
+
+  <FormInputFS type="id">CorporateThemeOption47Value</FormInputFS>
+  <FormInputFT type="id">CorporateThemeOption48Value</FormInputFT>
+  <FormInputFW type="id">CorporateThemeOption49Value</FormInputFW>
+
+  <ViewLabelFS type="id">CorporateThemeOption51Value</ViewLabelFS>
+  <ViewLabelFT type="id">CorporateThemeOption52Value</ViewLabelFT>
+  <ViewLabelFW type="id">CorporateThemeOption53Value</ViewLabelFW>
+
+  <NormalTextFS type="id">CorporateThemeOption51Value</NormalTextFS>
+  <NormalTextFT type="id">CorporateThemeOption52Value</NormalTextFT>
+  <NormalTextFW type="id">CorporateThemeOption53Value</NormalTextFW>
+</Themes>

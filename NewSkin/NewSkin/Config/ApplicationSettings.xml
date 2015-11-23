@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <URL>
+    <application><![CDATA[https://www.pegasus-test.com]]></application>
+  </URL>
+  <Credentials>
+    <!--OFFICE -->
+    <username><![CDATA[Niman0123]]></username>
+    <password><![CDATA[welcome2pegasus]]></password>
+    <!--1099 SALE AGENT-->
+    <username1><![CDATA[salesagent123]]></username1>
+    <password1><![CDATA[welcome2pegasus]]></password1>
+    <!-- CORP -->
+    <username2><![CDATA[Sarath4321]]></username2>
+    <password2><![CDATA[welcome2p2]]></password2>
+    <!--PARTNER AGENT-->
+    <username3><![CDATA[MyPartnerAgent]]></username3>
+    <password3><![CDATA[1qaz!QAZ]]></password3>
+    <!--PARTNER ASSOCIATION -->
+    <username4><![CDATA[MyPartnerAssociation]]></username4>
+    <password4><![CDATA[1qaz!QAZ]]></password4>
+  </Credentials>
+  <NewSiteCredentials>
+    <!--OFFICE ADMIN -->
+    <username><![CDATA[Niman0123]]></username>
+    <password><![CDATA[welcome2pegasus]]></password>
+    <!--1099 SALE AGENT-->
+    <username1><![CDATA[]]></username1>
+    <password1><![CDATA[]]></password1>
+    <!-- CORP -->
+    <username2><![CDATA[Sarath4321]]></username2>
+    <password2><![CDATA[welcome2p2]]></password2>
+    <!--PARTNER AGENT-->
+    <username3><![CDATA[crusse]]></username3>
+    <password3><![CDATA[crusse23]]></password3>
+    <!--PARTNER ASSOCIATION -->
+    <username4><![CDATA[]]></username4>
+    <password4><![CDATA[]]></password4>
+    <!--2nd Admin-->
+    <username5><![CDATA[kishore1234]]></username5>
+    <password5><![CDATA[welcome2pegasus]]></password5>
+    <!--TSEAA Admin1-->
+    <username6><![CDATA[kishore1234]]></username6>
+    <password6><![CDATA[welcome2pegasus]]></password6>
+    <!--TSEAA Admin2-->
+    <username7><![CDATA[kishore1234]]></username7>
+    <password7><![CDATA[welcome2pegasus]]></password7>
+    <!--selcorp-->
+    <username8>Sarath4321</username8>
+    <password8>welcome2p2</password8>
+    <!--seloffice-->
+    <username9>Niman0123</username9>
+    <password9>welcome2pegasus</password9>
+    <!--seloffice partner agent user-->
+    <username10>mmatthew12</username10>
+    <password10>mmatthew12</password10>
+    <!--seloffice partner association user-->
+    <username11>slane12</username11>
+    <password11>slane12</password11>
+    <!--seloffice 1099 Sales Agent user-->
+    <username12>salesagent123</username12>
+    <password12>welcome2pegasus</password12>
+    <!--Userfor dashboard test-->
+    <username13>admin13</username13>
+    <password13>admin13</password13>
+    <!--Userfor dashboard test-->
+    <username14>admin14</username14>
+    <password14>admin14</password14>
+    <!--seloffice test user-->
+    <username55>Tester3017</username55>
+    <password55>Tester3017</password55>
+  </NewSiteCredentials>
+  <browserdata>
+    <browser><![CDATA[chrome]]></browser>
+  </browserdata>
+</settings>

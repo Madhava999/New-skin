@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<product-management>
+  <product-tab>//*[@id="menu"]//li//a[@title='Products']</product-tab>
+  <save-button>//button[@title="Save"]</save-button>
+  <save-button2>//input[@title="Save"]</save-button2>
+  <save-button3>//a[@title="Save"]</save-button3>
+  <cancel-button>//button[@title="Cancel"]</cancel-button>
+  <required-message>//label[text()="This field is required."]</required-message>
+  <digit-message>//label[text()="Please enter only digits."]</digit-message>
+  <email-message>//label[text()="Please enter a valid email address."]</email-message>
+
+  <categories-link>//*[@id="menu"]/li[10]/ul/li[1]/a</categories-link>
+  <categories-create>//a[@title="Create New Category"]</categories-create>
+  <add-new-category>//h3[text()="Add New Product Category"]</add-new-category>
+  <categories-name type="id">ProductCategoryName</categories-name>
+  <categories-edit>(//a[@title="Edit Category"])[last()]</categories-edit>
+  <categories-delete>(//a[@title="Delete Category"])[last()]</categories-delete>
+  <categories-add-product-button>//strong[text()="Add Product"]</categories-add-product-button>
+  <categories-add-product-window>//h3[text()="Add New Product"]</categories-add-product-window>
+  <categories-product-name type="id">ProductName</categories-product-name>
+  <categories-product-edit>(//a[@title="Edit Category"])[last()]</categories-product-edit>
+  
+  <products-link>//*[@id="menu"]/li[10]/ul/li[2]/a</products-link>
+  <products-create>//a[@title="Create New Product"]</products-create>
+  <products-name-field type="id">ProductName</products-name-field>
+  <products-edit>(//a[@title="Edit Product"])[last()]</products-edit>
+  <products-delete>(//a[@title="Delete Product"])[last()]</products-delete>
+  
+  <product-custom-field>//a[@title="Add Custom Field"]</product-custom-field>
+  <custom-field-window type="id">ProductCustomFieldCreateForm</custom-field-window>
+  <custom-field-name type="id">ProductCustomFieldName</custom-field-name>
+  <custom-field-name2 type="id">ProductCustomFieldEditName</custom-field-name2>
+  <custom-field-type type="id">ProductCustomFieldType</custom-field-type>
+  <custom-field-type2 type="id">ProductCustomFieldEditType</custom-field-type2>
+  <custom-field-content type="id">ProductCustomFieldDataType</custom-field-content>
+  <custom-field-content2 type="id">ProductCustomFieldEditDataType</custom-field-content2>
+  <custom-data-valid type="id">ProductCustomFieldEditValidation</custom-data-valid>
+  <custom-max-range type="id">ProductCustomFieldDataLength</custom-max-range>
+  <custom-add-another>//a[text()="Add another"]</custom-add-another>
+  <custom-options>//input[contains(@name, "data[options]")]</custom-options>
+
+  <client>//a[@title="Clients"]</client>
+  <client-create>//span[text()="Create"]</client-create>
+  <client-status type="id">ClientStatus</client-status>
+  <client-responsibility type="id">ClientAssignedUserId</client-responsibility>
+  <client-company-details>//a[text()="Company Details"]</client-company-details>
+  <client-DBA type ="id">ClientDetailCompanyDbaName</client-DBA>
+  <client-products>//a[text()="Products"]</client-products>
+  <client-products-box>(//*[contains(@id, "ApplyProduct")])[last()]</client-products-box>
+  <client-products-entry>(//*[contains(@id, "ProductCustomField")])[last()]</client-products-entry>
+</product-management>

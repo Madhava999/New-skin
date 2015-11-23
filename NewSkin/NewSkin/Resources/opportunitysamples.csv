@@ -1,0 +1,23 @@
+Client Type,Status,Referal Source,Category,Responsibility,Account Manager,Partner,Opportunity Name,Opportunity Amount,Opportunity Probability,Company Name,Department,Industry,Sic Code,No Of Employees,Credit Score,Annual Sales Min,Annual Sales Max,Sales Transaction Avg,Address Type,Address,City,County,State,Country,Postal Code,Phone Type_1,Phone Number_1,Phone Extension_1,Phone Type_2,Phone Number_2,Phone Extension_2,Email Label_1,Email_1,Email Label_2,Email_2
+VoIP,Dead,YourOffice,Active,David,David,yourco.com,Mark,10,10,"Corner Bookstore, Inc.",IT,IT,1,10,12,12,50000,10,Location,123 W. Main Street,Plainfield,,IN,USA,56158,Work,8375640522,,Cell,5555640122,,Work,user@corner.com,Home,Steve@corner.com
+Processing,Dead,YourOffice,HOT,David,David,yourco.com,Christie,10,10,Cleaning Service,IT,IT,1,10,12,12,150000,10,Location,P.o. Box 3364,Decatur,,GA,USA,21021,Work,4733228154,,Cell,5553228144,,Work,user@bellsouth.net,Home,user2@bellsouth.net
+Processing,Dead,PCA,Cool,Filepe,Filepe,yourco.com,Christie,10,10,Fried Chicken,IT,IT,1,10,12,12,25000,10,Location,1113 Main St Apt 1,Oxnard,,CA,USA,90403,Work,9985555556,,Home,5555315556,,Work,USER@AOL.COM,Home,USER2@AOL.COM
+VoIP,Dead,PCA,Not Active,Filepe,Filepe,yourco.com,Kevin,10,10,Cafe -- Littleton,IT,IT,1,10,12,12,0,10,Location,123 S Main St,Littleton,,CO,USA,80123,Work,5521136455,,Fax,5521135455,,Work,userb@aol.com,Home,userb@aol.com
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+This is a sample import file which provides an example of the expected contents of a file that is ready for import.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"The file is a comma-delimited .csv file, using double-quotes as the field qualifier.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+The header row is the top-most row in the file and contains the field labels as you would see them in the application.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+These labels are used for mapping the data in the file to the fields in the application.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Notes: The database names could also be used in the header row. This is useful when you are using phpMyAdmin or another database tool to provide an exported list of data to import.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+The column order is not critical as the import process matches the data to the appropriate fields based on the header row.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"To use this file as a template, do the following:",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1. Remove the sample rows of data,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2. Remove the help text that you are reading right now,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3. Input your own data into the appropriate rows and columns,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4. Save the file to a known location on your system,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+5. Click on the Import option from the Actions menu in the application and choose the file to upload,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

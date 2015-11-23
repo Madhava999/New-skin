@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<digital-signatures>
+  <save-button>//button[@title="Save"]</save-button>
+  <cancel-button>//a[@title="Cancel"]</cancel-button>
+  <share-button type="id">saveform</share-button>
+  <cancel-share type="id">cancelshare</cancel-share>
+  <sign-button type="id">SignButton</sign-button>
+  <clear-button>//a[@title="Clear Signature"]</clear-button>
+
+  <clients-tab>//a[@title="Clients"]</clients-tab>
+  <brian-client>//tbody/tr[@tabindex="-1"]/td/a[contains(., "Test23")]</brian-client>
+  
+  <file-share>//a[text()="File Share"]</file-share>
+  <no-file>//td[text()="No Files Shared with Client Users."]</no-file>
+  <file-status2>//table/tbody/tr/td[4]</file-status2>
+  <file-delete>//a[@title="Delete Agreement"]</file-delete>
+  <file-cancelled>//tbody/tr/td[text()="Cancelled"]</file-cancelled>
+  
+  <pdfs-tab>//a[text()="PDFs"]</pdfs-tab>
+  <share-link>//a[text()="[Share]"]</share-link>
+  <share-window>//h3[text()="Client File Share"]</share-window>
+  <owner-box>//input[@id="ClientUsers"]</owner-box>
+  <sig-require>//input[@id="ClientRequiredSignature"]</sig-require>
+  <notify>//input[@id="ClientNotifyuser"]</notify>
+
+  <file-share-tab>//a[.//text()="File Share"]</file-share-tab>
+  <sig-require-button>//a[text()="Signature Required"][1]</sig-require-button>
+  <file-name>//tbody/tr/td[2]</file-name>
+  <file-status>//table/tbody/tr/td/span[1]</file-status>
+  <file-sign-time>//table/tbody/tr/td[5]</file-sign-time>
+  <sig-window>//h3[text()="Sign Document"]</sig-window>
+  <view-doc>//a[contains(., "Click here to view")]</view-doc>
+  <accept-terms>//input[@id="ClientMerchantapplication"]</accept-terms>
+  <click-sign>//div[@id="clicknew"]</click-sign>
+  <sign-canvas>//*[@id="signatureDiv"]/div/div[4]/canvas</sign-canvas>
+  <sig>//*[@id="signatureDiv"]/div/div[4]/input</sig>
+  <x>//span[text()="×"]</x>
+</digital-signatures>

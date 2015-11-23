@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<sales-agent>
+  <cancel-button>//a[@title="Cancel"]</cancel-button>
+  <required-message>//label[text()="This field is required."]</required-message>
+  
+  <opp>
+    <tab>//a[@title="Opportunities"]</tab>
+    <table>//div[@class="ibox-content"]</table>
+    <box1>(//tbody/tr[@tabindex="-1"]/td/input[@type="checkbox"])[1]</box1>
+    <box2>(//tbody/tr[@tabindex="-1"]/td/input[@type="checkbox"])[2]</box2>
+    <create>
+      <from-tab>//a[@title="Create an Opportunity"]</from-tab>
+      <from-button>//a[@title="Create New Opportunity"]</from-button>
+      <name type="id">OpportunityDetailOpportunityName</name>
+      <comp type="id">OpportunityDetailCompanyName</comp>
+      <status type="id">OpportunityStatus</status>
+      <respons type="id">OpportunityAssignedUserId</respons>
+    </create>
+    <import>
+      <import-button>//span[text()="Import"]</import-button>
+      <upload type="id">vcard_file</upload>
+      <import>//input[@value="Import"]</import>
+    </import>
+    <merge>
+      <button>//span[text()="Merge Records"]</button>
+      <primary>//input[@name="data[Opportunity][masterRecord]"]</primary>
+      <merge>//a[@title="Merge"]</merge>
+    </merge>
+  </opp>
+
+  <lead>
+    <tab>//a[@title="Leads"]</tab>
+    <table>//div[@class="ibox-content"]</table>
+    <box1>(//tbody/tr[@tabindex="-1"]/td/input[@type="checkbox"])[1]</box1>
+    <box2>(//tbody/tr[@tabindex="-1"]/td/input[@type="checkbox"])[2]</box2>
+    <create>
+      <from-button>//a[@title="Create New Lead"]</from-button>
+      <from-tab>//a[@title="Create a Lead"]</from-tab>
+      <status type="id">LeadStatus</status>
+      <respons type="id">LeadAssignedUserId</respons>
+      <comp-detail>//a[text()="Company Details"]</comp-detail>
+      <first type="id">LeadDetailFirstName</first>
+      <last type="id">LeadDetailLastName</last>
+      <comp type="id">LeadDetailCompanyName</comp>
+    </create>
+    <import>
+      <button>//span[text()="Import"]</button>
+      <file>//input[@id="vcard_file"]</file>
+      <import>//input[@value="Import"]</import>
+    </import>
+    <merge>
+      <button>//span[text()="Merge Records"]</button>
+      <primary>//input[@name="data[Lead][masterRecord]"]</primary>
+      <merge>//a[@title="Merge"]</merge>
+    </merge>
+  </lead>
+
+  <client>
+    <tab>//a[@title="Clients"]</tab>
+    <table>//div[@class="ibox-content"]</table>
+    <box1>(//tbody/tr[@tabindex="-1"]/td/input[@type="checkbox"])[1]</box1>
+    <box2>(//tbody/tr[@tabindex="-1"]/td/input[@type="checkbox"])[2]</box2>
+    <create>
+      <from-button>//a[@title="Create New Client"]</from-button>
+      <from-tab>//a[@title="Create a Client"]</from-tab>
+      <status type="id">ClientStatus</status>
+      <respons type="id">ClientAssignedUserId</respons>
+      <comp-detail>//a[text()="Company Details"]</comp-detail>
+      <comp type="id">ClientDetailCompanyDbaName</comp>
+    </create>
+    <import>
+      <button>//span[text()="Import"]</button>
+      <file>//input[@id="vcard_file"]</file>
+      <import>//input[@value="Import"]</import>
+      <existing type="id">ClientImportImporttypeExisting</existing>
+      <map type="id">ClientImportMappingType</map>
+      <peg-field type="id">field_name1</peg-field>
+      <import2>//button[@title="Import"]</import2>
+    </import>
+    <merge>
+      <button>//span[text()="Merge Records"]</button>
+      <primary>//input[@name="data[Client][masterRecord]"]</primary>
+      <merge>//a[@title="Merge"]</merge>
+    </merge>
+  </client>
+</sales-agent>

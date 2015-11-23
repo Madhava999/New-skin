@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResidualAdjustment>
+  <ResidualIncomeTab>//a[@title="Residual Income"]</ResidualIncomeTab>
+  <MasterData>//a[@title="Master Data"]</MasterData>
+  <AdjustmentTool>//a[text()="Adjustments Tool"]</AdjustmentTool>
+  <CreateButton>//a[@title="Create New Ruleset"]</CreateButton>
+  <Save>(//a[@title="Save"])[1]</Save>
+  <AdjustmentName type="id">RirOrgMasterRulesetRuleName</AdjustmentName>
+  <AdjustmentFor type="id">RirOrgMasterRulesetAdjustmentFor</AdjustmentFor>
+  <AdjustmentType type="id">RirOrgMasterRulesetAdjustmentType</AdjustmentType>
+  <Processor type="id">RirOrgMasterRulesetProcessor</Processor>
+  <ReportingPeriod type="id">RirOrgMasterRulesetReportingMonth</ReportingPeriod>
+  <FieldRequiredMessage type="id">RirOrgMasterRulesetRuleName-error</FieldRequiredMessage>
+  <Cancel>(//a[@title="Cancel"])[1]</Cancel>
+  <ProcessorDropdownOptions>//select[@id="RirOrgMasterRulesetProcessor"]/option[@value!="" and @value !="Any"]</ProcessorDropdownOptions>
+  <Username>//a[@class="dropdown-toggle"]</Username>
+  <Admin>//a[text()="Admin"]</Admin>
+  <ProcessorAdmin>//a[text()="Processors"]</ProcessorAdmin>
+  <ProcessorAdminList>//td[@aria-describedby="list1_processor_name"]</ProcessorAdminList>
+  <SpecificMerchant type="id">RirOrgMasterRulesetMerchantTypeSpecific</SpecificMerchant>
+  <SelectMerchant type="id">select_merchant</SelectMerchant>
+  <Client>(//a[@data-dismiss="modal"])[1]</Client>
+  <Search type="id">searchButton</Search>
+  <Green type="id">select_merchant_name</Green>
+  <Type type="id">rule_type0</Type>
+  <Amount type="id">amount_field0</Amount>
+  <AddRemove type="id">RirOrgMasterRulesetCustomRule0AddOrRemoveFlag</AddRemove>
+  <EnterValidNumber type="id">amount_field0-error</EnterValidNumber>
+
+  <OfficePayouts>//a[@title="Office Payouts"]</OfficePayouts>
+  <PayoutSummary>//a[@title="Payouts Summary"]</PayoutSummary>
+  <ProcessorSearch>//*[@id="related_positions_table"]/thead/tr[2]/th[3]/select</ProcessorSearch>
+  <CalculationWizard type="id">wizardaction</CalculationWizard>
+  <Imports>//a[@title="Imports"]</Imports>
+  <Startover>//a[@title="Startover"]</Startover>
+  <AgentLookUp>(//a[@title="Setup Revenue Share"])[2]</AgentLookUp>
+  <CalculateAdjustments>(//a[@title="Calculate Adjustments"])[2]</CalculateAdjustments>
+  <CalculatePayouts>(//a[@title="Calculate Payouts"])[2]</CalculatePayouts>
+  <ViewPayouts>(//a[@title="View Payouts"])[2]</ViewPayouts>
+  <SpecificAgent type="id">RirOrgMasterRulesetAgentIdTypeSpecific</SpecificAgent>
+  <SelectAgent type="id">select_agent</SelectAgent>
+  <Agent>//a[text()="Bank of America"]</Agent>
+  <Green2 type="id">select_agent_name</Green2>
+  <RulesAfterRevenue type="id">RirOrgMasterRulesetBeforeOrAfterAfter</RulesAfterRevenue>
+  
+</ResidualAdjustment>

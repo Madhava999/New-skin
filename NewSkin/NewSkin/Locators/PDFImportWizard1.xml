@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<pdf-import-wizard>
+  <save-button>//a[@title="Save"]</save-button>
+  <save-button2>//*[@id="CategoryReplaceCategoriesForm"]/div[3]/div/div/a[1]</save-button2>
+  <cancel-button>//a[@title="Cancel"]</cancel-button>
+  <required-message>//label[text()="This field is required."]</required-message>
+  <pdf-tab>//a[@title="PDF Templates"]</pdf-tab>
+
+  <pdf-import-wizard>//a[text()="PDF Import Wizard"]</pdf-import-wizard>
+  <instruction-link>//a[text()="Click Here"]</instruction-link>
+  <instruction-exit>//span[text()="×"]</instruction-exit>
+  <instruction>//h3[text()="Instructions"]</instruction>
+  <module-select type="id">PdfTemplateModule</module-select>
+  <import-file type="id">PdfTemplatePdfFile</import-file>
+  <import-button>//input[@value="Import"]</import-button>
+  <pdf-fields>//h5[text()="PDF FILE FIELDS"]</pdf-fields>
+  <upload-pdf>//h5[text()="Upload PDF Document"]</upload-pdf>
+  
+  <pdf-templates>//a[text()="PDF Templates"]</pdf-templates>
+  <pdf-package>//span[text()="PDF Package"]</pdf-package>
+  <package-name type="id">PdfTemplateName</package-name>
+  <package-module type="id">PdfTemplateZModuleId</package-module>
+  <package-category type="id">PdfTemplatePdfCategoryId</package-category>
+  <display-tab-box type="id">PdfTemplateTabLink</display-tab-box>
+  <package-access type="id">OrganizationAllTeams0</package-access>
+  <select-pdf-template>//a[text()="Select a PDF Template with a Rules"]</select-pdf-template>
+  <leads-select>//option[text()="Leads"]</leads-select>
+  <clients-count>//tbody//tr[@tabindex="-1"]//td[@title="Clients"]</clients-count>
+  
+  <pdf-categories>//a[text()="PDF Categories"]</pdf-categories>
+  <create-pdf-category>//i[@class="fa fa-plus"]</create-pdf-category>
+  <add-category-window>//h3[text()="Add New Category"]</add-category-window>
+  <edit-category>(//a[@title="Edit Category"])[last()]</edit-category>
+  <delete-category>(//a[@title="Delete Category"])[last()]</delete-category>
+  <delete-replace-category>//*[@id="CategoryReplaceCategory"]</delete-replace-category>
+  <pdf-category-name type="id">CorporatePdfCategoryName</pdf-category-name>
+  <pdf-category-name2 type="id">PdfCategoryName</pdf-category-name2>
+  <replace-category>//h3[text()="Replace Category With"]</replace-category>
+
+  <leads-tab>//a[@title="Leads"]</leads-tab>
+  <lead>//tbody/tr[2]/td/a</lead>
+  <pdfs-tab>//a[text()="PDFs"]</pdfs-tab>
+  <new-package>//a[contains(., "Test Package")]</new-package>
+</pdf-import-wizard>

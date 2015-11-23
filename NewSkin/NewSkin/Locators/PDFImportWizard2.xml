@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <Navigate>
+    <UserIcon><![CDATA[//a[contains(@href,'#')]]]></UserIcon>
+    <AdminTab><![CDATA[//a[text()="Admin"]]]></AdminTab>
+    <PDFTemplatesTab><![CDATA[//*[@title="PDF Templates"]]]></PDFTemplatesTab>
+    <PDFTemplatesInnerTab><![CDATA[//a[text()="PDF Templates"]]]></PDFTemplatesInnerTab>
+    <PDFImportWizardTab><![CDATA[//a[text()="PDF Import Wizard"]]]></PDFImportWizardTab>
+    <NextButton><![CDATA[//*[@title="Next"]]]></NextButton>
+    <SaveImportButton><![CDATA[//*[@id="saveForm"]]]></SaveImportButton>
+    <ClientsTab><![CDATA[//*[@title="Clients"]]]></ClientsTab>
+    <LeadsTab><![CDATA[//*[@title="Leads"]]]></LeadsTab>
+  </Navigate>
+
+  <ImportPDF>
+    <SelectPDFModule><![CDATA[//*[@id="PdfTemplateModule"]]]></SelectPDFModule>
+    <UploadPDFFile><![CDATA[//*[@id="PdfTemplatePdfFile"]]]></UploadPDFFile>
+    <ImportButton><![CDATA[//input[contains(@type,"submit")]]]></ImportButton>
+    <SelectPDFCategory><![CDATA[//*[@id="PdfTemplatePdfCategoryId"]]]></SelectPDFCategory>
+    <SearchListVisibleElement><![CDATA[//li[contains(@class,'show') ]]]></SearchListVisibleElement>
+    
+    <CheckDisplayInTabBox><![CDATA[//*[@id="PdfTemplateTabLink"]]]></CheckDisplayInTabBox>
+    <CheckShareBox><![CDATA[//*[@id="PdfTemplateShareLink"]]]></CheckShareBox>
+    <CheckEmailBox><![CDATA[//*[@id="PdfTemplateEmailLink"]]]></CheckEmailBox>
+    <ChooseAllOffices><![CDATA[//*[@id="OrganizationAllOffices0"]]]></ChooseAllOffices>
+    <SearchPDFFileField><![CDATA[//*[@id="ImportIndexFilter"]]]></SearchPDFFileField>
+    <SelectPegasusTab><![CDATA[//*[@id="tab"]]]></SelectPegasusTab>
+    <SelectPegasusField><![CDATA[//*[@id="field_name"]]]></SelectPegasusField>
+    <PDFSaveMappingsButton><![CDATA[//*[@title="Set Mapping"]]]></PDFSaveMappingsButton>
+    <CancelButton><![CDATA[//*[@title="Cancel"]]]></CancelButton>
+
+    <ClickMapWithRule><![CDATA[//*[@id="mapping_typeCreaterule"]]]></ClickMapWithRule>
+    <SelectSetValue><![CDATA[//*[@id="ImportIndexPopRulesetType"]]]></SelectSetValue>
+    <EnterSetValue><![CDATA[//*[@id="ImportIndexPopValue"]]]></EnterSetValue>
+    <PDFSaveRuleButton><![CDATA[//a[@title="Save Rule"]]]></PDFSaveRuleButton>
+
+  </ImportPDF>
+  <CheckInOffice>
+    <ClickImportedPDF><![CDATA[//a[text()="Pegasus Contract_V3"]]]></ClickImportedPDF>
+    <SearchForCompanyLead><![CDATA[//*[@id="gs_company_name"]]]></SearchForCompanyLead>
+    <SearchForCompanyClient><![CDATA[//*[@id="gs_company_dba_name"]]]></SearchForCompanyClient>
+    <ClickChyCompanyClient><![CDATA[//a[text()="Chy Company"]]]></ClickChyCompanyClient>
+    <ClickMackCompanyLead><![CDATA[//a[text()="Mack Company"]]]></ClickMackCompanyLead>
+    <PDFsTab><![CDATA[//a[text()="PDFs"]]]></PDFsTab>
+  </CheckInOffice>
+
+  <DeletePDF>
+    <PDFToDelete><![CDATA[//a[text()="MarineMPA"]]]></PDFToDelete>
+    <FirstCheckBox><![CDATA[(//input[@class='cbox'])[2]]]></FirstCheckBox>
+    <DeleteButton><![CDATA[//*[@id="deletepdf"]]]></DeleteButton>
+  </DeletePDF>
+  <EditPDF>
+    <MakeInactiveButton><![CDATA[//*[@id="list1"]/tbody/tr[2]/td[8]/a[2]]]></MakeInactiveButton>
+    <ClickOnPDFName><![CDATA[//a[text()="MarineMPA"]]]></ClickOnPDFName>
+    <MakeInactiveLink><![CDATA[//*[@title="Make Inactive"]]]></MakeInactiveLink>
+    <EditMappingsButton><![CDATA[//*[@id="list1"]/tbody/tr[2]/td[8]/a[4]]]></EditMappingsButton>
+    <EditPermissionsButton><![CDATA[//*[@id="list1"]/tbody/tr[2]/td[8]/a[3]]]></EditPermissionsButton>
+    <SelectStatusInactive><![CDATA[//*[@id="CorporatePdfTemplateActive"]]]></SelectStatusInactive>
+    <EditPDFInfoButton><![CDATA[//*[@id="list1"]/tbody/tr[2]/td[8]/a[1]]]></EditPDFInfoButton>
+    <ClickPrintedNameField><![CDATA[//*[@id="MetaTablePdfFieldPrintedName"]]]></ClickPrintedNameField>
+    <UpdateButton><![CDATA[//button[@title="Save"]]]></UpdateButton>
+    <ChooseNoOffices><![CDATA[//*[@id="OrganizationAllOffices1"]]]></ChooseNoOffices>
+    <PushToOffices><![CDATA[//button[@title="Save"]]]></PushToOffices>
+    <SaveChanges><![CDATA[//a[@title="Save"]]]></SaveChanges>
+    <ReplacePDFLink><![CDATA[//a[text()="Replace PDF Template"]]]></ReplacePDFLink>
+    <CancelButton><![CDATA[//a[@title="Cancel"]]]></CancelButton>
+  </EditPDF>
+  <PDFPackage>
+    <CreatePDFPackageButton><![CDATA[//*[@title="New PDF Package"]]]></CreatePDFPackageButton>
+    <EnterName><![CDATA[//*[@id="PdfTemplateName"]]]></EnterName>
+    <SelectPackageModule><![CDATA[//*[@id="PdfTemplateZModuleId"]]]></SelectPackageModule>
+    <SelectPDFsForPackage><![CDATA[//*[@id="PdfTemplatePdfTemplateId"]]]></SelectPDFsForPackage>
+    <AddPDFButton><![CDATA[//a[contains(@class,"addpdf")]]]></AddPDFButton>
+    <SaveButton><![CDATA[//*[@title="Save"]]]></SaveButton>
+  </PDFPackage>
+
+</Locators>

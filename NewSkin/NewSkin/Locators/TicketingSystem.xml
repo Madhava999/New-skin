@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Locators>
+  <Navigate>
+    <UserName><![CDATA[//a[contains(@href,'#')]]]></UserName>
+    <AdminTab><![CDATA[//a[text()="Admin"]]]></AdminTab>
+    <MainSiteTab><![CDATA[//a[text()="Main Site"]]]></MainSiteTab>
+    <TicketsSettingsTab><![CDATA[//*[@id="menu"]/li[8]/ul/li[2]/a]]></TicketsSettingsTab>
+    <TicketsTab><![CDATA[//*[@title="Tickets"]]]></TicketsTab>
+    <AllTicketsTab><![CDATA[//*[@title="View All Tickets"]]]></AllTicketsTab>
+    <ResolvedTicketsTab><![CDATA[//*[@title="Resolved Tickets"]]]></ResolvedTicketsTab>
+    <ClosedTicketsTab><![CDATA[//*[@title="Closed Tickets"]]]></ClosedTicketsTab>
+    <OpenTicketsTab><![CDATA[//*[@title="Open Tickets"]]]></OpenTicketsTab>
+    <SaveButton><![CDATA[//*[@title="Save"]]]></SaveButton>
+  </Navigate>
+  <CreateATicket>
+    <ClickCreateATicket><![CDATA[//a[text()="Create a Ticket"]]]></ClickCreateATicket>
+    <EnterName><![CDATA[//*[@id="TicketName"]]]></EnterName>
+    <SelectClientButton><![CDATA[//*[@id="assignrecord"]]]></SelectClientButton>
+    <ChooseClient><![CDATA[//a[text()="Chy Company"]]]></ChooseClient>
+    <EnterIntoSearchByIDBox><![CDATA[//*[@id="ClientId"]]]></EnterIntoSearchByIDBox>
+    <EnterIntoSearchByNameBox><![CDATA[//*[@id="ClientCompanyDbaName"]]]></EnterIntoSearchByNameBox>
+    <ClickSearchButton><![CDATA[//*[@id="searchButton"]]]></ClickSearchButton>
+    <SelectAssignedTo><![CDATA[//*[@id="TicketAssignedUserId"]]]></SelectAssignedTo>
+    <SelectCategory><![CDATA[//*[@id="TicketCategory"]]]></SelectCategory>
+    <SelectStatus><![CDATA[//*[@id="TicketStatus"]]]></SelectStatus>
+  </CreateATicket>
+  <EditTickets>
+    <ClickCheckBox1><![CDATA[//*[@id="list1"]/tbody/tr[2]/td[1]/input]]></ClickCheckBox1>
+    <ClickCheckBox2><![CDATA[//*[@id="list1"]/tbody/tr[3]/td[1]/input]]></ClickCheckBox2>
+    <ClickBulkUpdate><![CDATA[//*[@title="Bulk Update"]/button]]></ClickBulkUpdate>
+    <ChooseToChangeStatus><![CDATA[//a[text()="Change Status"]]]></ChooseToChangeStatus>
+    <ChooseStatusToChangeTo><![CDATA[//*[@id="TicketStatusUpdateStatus"]]]></ChooseStatusToChangeTo>
+    <ClickUpdateButton><![CDATA[//*[@title="Update"]]]></ClickUpdateButton>
+    <ChooseBoarding><![CDATA[//option[text()="Boarding"]]]></ChooseBoarding>
+    <DeleteButton><![CDATA[//*[@title="Delete"]]]></DeleteButton>
+    <SelectTicket><![CDATA[//a[text()='Test Ticket 201508071619256307']]]></SelectTicket>
+    <ResolveButton><![CDATA[//*[@id="resolve_button"]]]></ResolveButton>
+    <SelectResolution><![CDATA[//*[@id="TicketResolution"]]]></SelectResolution>
+    <SaveResolutionButton><![CDATA[//*[@id="AddResolutinForm"]/div[4]/input]]></SaveResolutionButton>
+    <CloseButton><![CDATA[//*[@id="close_button"]]]></CloseButton>
+    <ReOpenButton><![CDATA[//*[@id="reopen_button"]]]></ReOpenButton>
+  </EditTickets>
+  <SearchTickets>
+    <SearchForTicket><![CDATA[//*[@id="gs_name"]]]></SearchForTicket>
+    <CategoryBox><![CDATA[//*[@id="gs_category"]]]></CategoryBox>
+    <AdvancedFilterButton><![CDATA[//*[@title="Advance Filter"]]]></AdvancedFilterButton>
+    <RandomElement><![CDATA[//h5[1]]]></RandomElement>
+  </SearchTickets>
+  <ChangeSettings>
+    <SelectCategory><![CDATA[//*[@id="assign0Category"]]]></SelectCategory>
+    <SelectDepartment><![CDATA[//*[@id="assign0Department"]]]></SelectDepartment>
+    <SelectPriority><![CDATA[//*[@id="assign0Priority"]]]></SelectPriority>
+    <SelectAssignedTo><![CDATA[//*[@id="assign0Owner"]]]></SelectAssignedTo>
+    <SelectManager><![CDATA[//*[@id="assign0Manager"]]]></SelectManager>
+  </ChangeSettings>
+</Locators>

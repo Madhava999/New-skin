@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<CorporatePortal>
+  <OfficeTab>//a[@title="Offices"]</OfficeTab>
+  <OfficeTab2>//a[text()="Offices"]</OfficeTab2>
+  <Create>//a[@title="Create an Office"]</Create>
+  <Name type="id">OrganizationName</Name>
+  <AddressType type="id">OrganizationAddress0Type</AddressType>
+  <AddressLine1 type="id">OrganizationAddress0AddressLine1</AddressLine1>
+  <ZipCode type="id">OrganizationAddress0PostalCode</ZipCode>
+  <UserName type="id">UserUserName</UserName>
+  <AutoGeneratePassword type="id">UserAutogenerate</AutoGeneratePassword>
+  <Password type="id">UserPassword</Password>
+  <FirstName type="id">EmployeeFirstName</FirstName>
+  <LastName type="id">EmployeeLastName</LastName>
+  <eAddress type="id">EmployeeElectronicAddress0ElectronicContent</eAddress>
+  <Save>//button[@title="Save"]</Save>
+  <DeleteIcon>(//a[@title="Delete an Office"])[1]</DeleteIcon>
+  <Delete>//button[@title="Delete"]</Delete>
+
+
+  <EmployeesTab>//a[@title="Employees"]</EmployeesTab>
+  <Create1>//a[@title="Create New Employee"]</Create1>
+  <PrimaryEmail type="id">UserVerificationEmail</PrimaryEmail>
+  <FirstName1 type="id">CorporateUserFirstName</FirstName1>
+  <LastName1 type="id">CorporateUserLastName</LastName1>
+  <CorporateAdminUser>(//input[@type="checkbox"])[1]</CorporateAdminUser>
+  <PhoneNumber type="id">CorporateUserPhone0PhoneNumber</PhoneNumber>
+  <eAddress1 type="id">CorporateUserElectronicAddress0ElectronicContent</eAddress1>
+  <Save1>(//input[@value="Save"])[1]</Save1>
+
+  <Edit>(//a[@title="Edit Employee"])[1]</Edit>
+  <UserTab>//a[text()="Users"]</UserTab>
+  <Export>//div[@title="Export"]</Export>
+  <CSV type="id">export_csv</CSV>
+  <ActiveInactive>(//a[@title="Make Inactive"])[1]</ActiveInactive>
+
+  <ResidualIncomeTab>//a[@title="Residual Income"]</ResidualIncomeTab>
+  <MasterData>//a[@title="Master Data"]</MasterData>
+  <OfficeLookupCode>//a[text()="Office Lookup Codes"]</OfficeLookupCode>
+  <Export1 type="id">export</Export1>
+  <RevenueShareSetup>//a[text()="Revenue Share Setup"]</RevenueShareSetup>
+  <ProcessorType type="id">ProcessorTypeProcessor</ProcessorType>
+  <RevenueSharePercentage type="id">text1</RevenueSharePercentage>
+  <ApplyToAll type="id">ResidualMasterRevenueOrgrevenueshare</ApplyToAll>
+  <Save2>//button[@title="Save"]</Save2>
+  <MerchantTab>//a[@title="Merchants"]</MerchantTab>
+  <MerchantCompany>//td[@aria-describedby="list1_company_dba_name"]</MerchantCompany>
+  <SystemTab>//a[@title="System"]</SystemTab>
+  <Avatar>//a[text()="Avatars"]</Avatar>
+  <EditAvatar>(//a[@title="Edit Avatar"])[1]</EditAvatar>
+  <CreateTicket type="id">Create</CreateTicket>
+  <Create2>//a[@title="Create New"]</Create2>
+  <AvatarName type="id">CorporateAvatarName</AvatarName>
+  <UserType type="id">CorporateAvatarCorpUserTypeId</UserType>
+  <MerchantType>//a[text()="Merchant Types"]</MerchantType>
+  <EditMerchantType>(//a[@title="Edit Merchant Type"])[1]</EditMerchantType>
+  <MerchantTypeName type="id">CorporateMasterMerchantTypeMerchantType</MerchantTypeName>
+  <Save3>//a[@title="Save"]</Save3>
+  <MasterData1>(//a[@title="Master Data"])[2]</MasterData1>
+  <PricingPlans>//a[text()="Pricing Plans"]</PricingPlans>
+  <EditPricingPlan>(//a[@title="Edit Pricing Plan"])[1]</EditPricingPlan>
+  <PricingPlanName type="id">CorporateMasterPricingPlanName</PricingPlanName>
+  <PushToOffices>//a[@title="Push to Offices"]</PushToOffices>
+  <AmexRates>//a[text()="Amex Rates"]</AmexRates>
+  <CreateAmexRate>(//a[@title="Create New Amex Rates"])[1]</CreateAmexRate>
+  <MCCCode type="id">CorporateMasterRatesAmexMccCode</MCCCode>
+  <Processor>//a[text()="Processors"]</Processor>
+  <EditProcessor>//a[@title="Edit Processor"]</EditProcessor>
+  <ProcessorName type="id">CorporateMasterProcessorProcessorName</ProcessorName>
+  <OmahaAuthGrids>//a[text()="Omaha Auth Grids"]</OmahaAuthGrids>
+  <EditOmaha>//a[@title="Edit"]</EditOmaha>
+  <AuthGridId type="id">CorporateMasterDataGridid</AuthGridId>
+  <MCPos type="id">CorporateMasterDataMastercardPosAuthFee</MCPos>
+  <DiscPos type="id">CorporateMasterDataDiscoverPosAuthFee</DiscPos>
+  <VoiceAuth type="id">CorporateMasterDataVoiceAuthFee</VoiceAuth>
+  <AVSVoice type="id">CorporateMasterDataAvsVoiceFee</AVSVoice>
+  <VisaPos type="id">CorporateMasterDataVisaPosAuthFee</VisaPos>
+  <AmexPos type="id">CorporateMasterDataAmexPosAuthFee</AmexPos>
+  <JCBPos type="id">CorporateMasterDataJcbPosAuthFee</JCBPos>
+  <AVSElect type="id">CorporateMasterDataAvsElectronicFee</AVSElect>
+  <ARU type="id">CorporateMasterDataAruFee</ARU>
+  <CreatePricingPlan>//a[@title="Create New Amex Rates"]</CreatePricingPlan>
+  <ProcessorNamePricing type="id">CorporateMasterPricingPlanProcessorId</ProcessorNamePricing>
+  
+  <UserLimit>//a[text()="User Limits"]</UserLimit>
+  <EditOfficeUserLimit>(//a[@title="Edit this row"])[1]</EditOfficeUserLimit>
+  <EditEmployees>(//input[@class="editable"])[1]</EditEmployees>
+  <Save4>//a[@title="Save this row"]</Save4>
+  <Languages>//a[text()="Languages"]</Languages>
+  <CreateLanguage>//a[@title="Add New Language"]</CreateLanguage>
+  <LanguageName type="id">CorporateLanguageName</LanguageName>
+  <PickList>//a[text()="Picklists"]</PickList>
+  <AddressType1>//a[text()="Address Type"]</AddressType1>
+  <AddNewItem>//a[@title="Add New Item"]</AddNewItem>
+  <ItemName type="id">CorporatePickListValueValue</ItemName>
+  <Save5 type="id">add-item-submit</Save5>
+  <Message>//div[contains(text(), "successfull")]</Message>
+  <InactivateButton>//button[@type="submit"]</InactivateButton>
+  <ActiveText>//button[contains(@id, "activate")]</ActiveText>
+  <StatusText>//span[contains(@id, "status")]</StatusText>
+  <SelectOffice>//a[text()="{0}"]</SelectOffice>
+  <DeleteOffice>//a[@title="Delete Contact"]</DeleteOffice>
+  <SendEmailOffice>//a[@title="Send E-Mail"]</SendEmailOffice>
+  <EmailSubject type="id">EmailName</EmailSubject>
+  <SendEmailButton>//a[@title="Send"]</SendEmailButton>
+  <AddNote>//a[@title="Add Note"]</AddNote>
+  <NoteSubjectName type="id">NoteName</NoteSubjectName>
+  <NewTask>//a[@title="Create Task"]</NewTask>
+  <TaskSubject type="id">CorporateTaskName</TaskSubject>
+  <StartDate type="id">CorporateTaskStartDate</StartDate>
+  <TaskSaveButton>(//a[@title="Save"])[3]</TaskSaveButton>
+  <AddDocument type="id">adddocument1</AddDocument>
+  <DocumentName type="id">DocumentName</DocumentName>
+  <ChooseFile type="id">DocumentFiles</ChooseFile>
+  <DocumentSaveButton>(//a[@title="Save"])[2]</DocumentSaveButton>
+  <CreateMerchant>//a[@title="Create New Merchant Type"]</CreateMerchant>
+  <CreateOmahaAuth>//a[@title="Add New Grid Id"]</CreateOmahaAuth>
+
+
+</CorporatePortal>

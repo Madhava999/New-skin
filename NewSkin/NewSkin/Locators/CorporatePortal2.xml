@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<corp>
+  <sidebar>
+    <master-data>
+      <self>//a[@title="Master Data" and ./span[text()="Master Data"]]</self>
+      <rates-fees><![CDATA[//a[text()="Rates & Fees"]]]></rates-fees>
+    </master-data>
+
+    <system>
+      <self>//a[@title="System"]</self>
+      <email>//a[text()="E-Mail Templates"]</email>
+      <audit>//a[text()="Audit Trail"]</audit>
+      <settings>//a[text()="Settings"]</settings>
+    </system>
+
+    <fdict>
+      <self>//a[@title="Field Dictionary"]</self>
+      <tabs>//a[text()="Tabs"]</tabs>
+      <sections>//a[text()="Sections"]</sections>
+      <fields>
+        <self>//a[@title="Fields"]</self>
+        <props>//a[text()="Field Properties"]</props>
+      </fields>
+      <field-group>//a[text()="Field Grouping Templates"]</field-group>
+    </fdict>
+  </sidebar>
+
+  <rates-fees>
+    <name type="id">CorporateMasterRateTemplateName</name>
+    <ptype type="id">processor_type</ptype>
+    <mtype type="id">CorporateMasterRateMerchantType</mtype>
+    <method type="id">CorporateMasterRateCardAcceptMethod</method>
+
+    <delete-button>//tr[.//*[text()="{0}"]]//a[@title="Delete Master Rate"]</delete-button>
+  </rates-fees>
+
+  <push-offices-button>//a[@title="Push to Offices"]</push-offices-button>
+
+  <email>
+    <edit-template>//a[@title="Edit Template"]</edit-template>
+  </email>
+
+  <audit>
+    <name>//td[@aria-describedby="list1_name"]/a</name>
+  </audit>
+
+  <user-dropdown>//li[contains(@class, "dropdown")]</user-dropdown>
+  <profile-link>//a[text()="Profile"]</profile-link>
+  <edit-profile>//a[contains(text(), "Edit Profile")]</edit-profile>
+
+  <edit-tab>//li[.//span[text()="{0}"]]//a[@title="Edit Tab"]</edit-tab>
+  <delete-tab>//li[.//span[text()="{0}"]]//a[@title="Delete Tab"]</delete-tab>
+  <edit-tab-name type="id">CorporateMetaTabNameEditName</edit-tab-name>
+
+  <section-name type="id">CorporateMetaSectionNameName</section-name>
+  <edit-section>//a[contains(@onclick, "{0}")]</edit-section>
+  <edit-section-name type="id">SectionName</edit-section-name>
+  <delete-section>//li[contains(., "{0}") and contains(@class, "parent")]//a[@title="Delete Section"]</delete-section>
+
+  <field-module type="id">SearchFormModuleId</field-module>
+  <field-search>//button[@title="Search"]</field-search>
+  <first-field type="class">radiofield</first-field>
+
+  <fgroup-name type="id">CorporateMetaFieldGroupingTemplateName</fgroup-name>
+  <fgroup-module type="id">CorporateMetaFieldGroupingTemplateZModuleId</fgroup-module>
+  <fgroup-proc type="id">CorporateMetaFieldGroupingTemplateProcessorId</fgroup-proc>
+  <fgroup-tab type="id">tab</fgroup-tab>
+  <fgroup-field type="id">field_name</fgroup-field>
+  <fgroup-add-field>//a[@onclick="addMoreField()"]</fgroup-add-field>
+
+  <!-- These are stuff for the client portal. -->
+  <tab-name type="id">CorporateMetaTabNameName</tab-name>
+  <first-client>//td[@aria-describedby="list1_company_dba_name"]/a</first-client>
+</corp>

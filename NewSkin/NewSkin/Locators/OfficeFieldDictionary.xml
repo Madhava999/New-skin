@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Locators>
+  <Navigate>
+    <UserName><![CDATA[//a[contains(@href,'#')]]]></UserName>
+    <AdminTab><![CDATA[//a[text()="Admin"]]]></AdminTab>
+    <FieldDictionaryTab><![CDATA[//a[@title="Field Dictionary"]]]></FieldDictionaryTab>
+    <TabsTab><![CDATA[//a[text()="Tabs"]]]></TabsTab>
+    <SectionsTab><![CDATA[//a[text()="Sections"]]]></SectionsTab>
+    <FieldsTab><![CDATA[//a[@title="Fields"]]]></FieldsTab>
+    <FieldGroupingTab><![CDATA[//a[text()="Field Grouping Templates"]]]></FieldGroupingTab>
+    <FieldPropertiesTab><![CDATA[//a[text()="Field Properties"]]]></FieldPropertiesTab>
+    <ClientsTab><![CDATA[//*[@title="Clients"]]]></ClientsTab>
+    <MainSiteTab><![CDATA[//a[text()="Main Site"]]]></MainSiteTab>
+    <PDFTemplatesTab><![CDATA[//*[@title="PDF Templates"]]]></PDFTemplatesTab>
+    <PDFTemplatesInnerTab><![CDATA[//a[text()="PDF Templates"]]]></PDFTemplatesInnerTab>
+    <PDFImportWizardTab><![CDATA[//a[text()="PDF Import Wizard"]]]></PDFImportWizardTab>
+    <SaveButton><![CDATA[//*[@title="Save"]]]></SaveButton>
+  </Navigate>
+  <Tabs>
+    <CreateTabButton><![CDATA[//a[@title="Add New Tab"]]]></CreateTabButton>
+    <EnterNewTabName><![CDATA[//*[@id="MetaTabNameName"]]]></EnterNewTabName>
+    <CreateSaveButton><![CDATA[(//button[text()="Save"])[1]]]></CreateSaveButton>
+    <DeleteTab><![CDATA[(//*[@title="Delete Tab"])[last()]]]></DeleteTab>
+    <EditFirstTab><![CDATA[(//a[@title="Edit Tab"])[1]]]></EditFirstTab>
+    <EnterEditedTabName><![CDATA[//*[@id="MetaTabNameEditName"]]]></EnterEditedTabName>
+    <EditSaveButton><![CDATA[(//button[text()="Save"])[2]]]></EditSaveButton>
+    <InfoPageTab1><![CDATA[//div[@class="panel-options"]/ul/li[1]]]></InfoPageTab1>
+  </Tabs>
+  <TabSections>
+    <EnterNewSectionName><![CDATA[//*[@id="MetaSectionNameName"]]]></EnterNewSectionName>
+    <CreateSectionButton><![CDATA[//a[@title="Add New Section"]]]></CreateSectionButton>
+    <CreateSaveButton><![CDATA[(//button[text()="Save"])[1]]]></CreateSaveButton>
+    <DeleteTabSection><![CDATA[(//*[@title="Delete Section"])[last()]]]></DeleteTabSection>
+    <EditSection><![CDATA[(//*[@title="Edit"])[4]]]></EditSection>
+    <EditSectionName><![CDATA[//*[@id="SectionName"]]]></EditSectionName>
+    <EditSaveButton><![CDATA[(//button[text()="Save"])[2]]]></EditSaveButton>
+    <SecondSectionUnderDetailsTab><![CDATA[(//h5)[2]]]></SecondSectionUnderDetailsTab>
+    <MoveSection1><![CDATA[(//*[@title="Change Tab"])[4]]]></MoveSection1>
+    <SelectMoveToTab><![CDATA[//*[@id="MetaSectionNameTabId"]]]></SelectMoveToTab>
+    <MoveSaveButton><![CDATA[(//button[text()="Save"])[3]]]></MoveSaveButton>
+  </TabSections>
+  <SectionFields>
+    <SelectModule><![CDATA[//*[@id="SearchFormModuleId"]]]></SelectModule>
+    <SearchButton><![CDATA[//button[@title="Search"]]]></SearchButton>
+    <ChooseCompanyLogo><![CDATA[//a[text()="Company Logo"]]]></ChooseCompanyLogo>
+    <SelectNewSection><![CDATA[//*[@id="MetaTableSectionId"]]]></SelectNewSection>
+    <SaveNewFieldInfo><![CDATA[(//button[@title="Save"])[1]]]></SaveNewFieldInfo>
+    <ChangeFieldName><![CDATA[//*[@id="MetaTableFieldDisplayName"]]]></ChangeFieldName>
+    <ChooseTestField><![CDATA[//a[text()='Test Section 783']]]></ChooseTestField>
+    <SelectNewTab><![CDATA[//*[@id="MetaTableTabId"]]]></SelectNewTab>
+  </SectionFields>
+  <GroupingTemplate>
+    <CreateNewButton><![CDATA[//a[@title="Add New Template"]]]></CreateNewButton>
+    <EnterName><![CDATA[//*[@id="MetaFieldGroupingTemplateName"]]]></EnterName>
+    <SelectModule><![CDATA[//*[@id="MetaFieldGroupingTemplateZModuleId"]]]></SelectModule>
+    <SelectTab><![CDATA[//*[@id="tab"]]]></SelectTab>
+    <SelectField><![CDATA[//*[@id="field_name"]]]></SelectField>
+    <AddFieldButton><![CDATA[(//a[@title="Add Another"])[2]]]></AddFieldButton>
+    <SaveButton><![CDATA[//button[@title="Save"]]]></SaveButton>
+    <SelectMappingByTemplate><![CDATA[//*[@id="typeoffieldTemplate"]]]></SelectMappingByTemplate>
+    <SelectTemplateName><![CDATA[//*[@id="template"]]]></SelectTemplateName>
+  </GroupingTemplate>
+  <ClientsSection>
+    <ChooseClient><![CDATA[//a[text()="Chy Company"]]]></ChooseClient>
+    <CompanyDetailsTab><![CDATA[//a[text()="Company Details"]]]></CompanyDetailsTab>
+    <BusinessDetailsTab><![CDATA[//a[text()="Business Details"]]]></BusinessDetailsTab>
+    <ContactsTab><![CDATA[//a[text()="Contacts"]]]></ContactsTab>
+  </ClientsSection>
+  <ImportPDF>
+    <SelectPDFModule><![CDATA[//*[@id="PdfTemplateModule"]]]></SelectPDFModule>
+    <UploadPDFFile><![CDATA[//*[@id="PdfTemplatePdfFile"]]]></UploadPDFFile>
+    <ImportButton><![CDATA[//input[@value="Import"]]]></ImportButton>
+  </ImportPDF>
+</Locators>

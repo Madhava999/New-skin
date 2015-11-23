@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<website-api>
+  <integrations-menu>//li[.//span[text()="Integrations"]]</integrations-menu>
+  <api-codes-link>//li[.//span[text()="Integrations"]]//a[text()="API Codes"]</api-codes-link>
+  <create-button>//a[@title="Add New API Key"]</create-button>
+  <api-keys-title>//h2[text()="API Keys"]</api-keys-title>
+  <required-message>//label[text()="This field is required."]</required-message>
+  <save-button>//form//button[@title="Save"]</save-button>
+  <generate-button type="id">autoCode</generate-button>
+  <api-code-field type="id">ApiCodeApiCode</api-code-field>
+  <version-field type="id">ApiCodeVersion</version-field>
+  <status-field type="id">ApiLeadStatus</status-field>
+  <responsibility-field type="id">ApiLeadAssignedUserId</responsibility-field>
+</website-api>

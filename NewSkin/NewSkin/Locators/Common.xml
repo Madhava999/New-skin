@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This file contains locators common throughout the site. -->
+<common>
+  <!-- The dropdown menu under the name in the top-right menu. -->
+  <name-dropdown>//*[@id="page-wrapper"]/div[1]/nav/ul/li[2]/a</name-dropdown>
+  <main-link>//*[@id="page-wrapper"]//a[text()="Main Site"]</main-link>
+  <admin-link>//*[@id="page-wrapper"]//a[text()="Admin"]</admin-link>
+  <logout-link>//*[@id="page-wrapper"]//a[text()="Logout"]</logout-link>
+  <flash-message type="id">flashMessage</flash-message>
+
+  <!-- I'm not sure if this is the same for all breadcrumbs or not. -->
+  <breadcrumbs type="class">custom_breadcrumbs</breadcrumbs>
+
+  <sidebar>
+    <clients>//a[@title="Clients"]</clients>
+  </sidebar>
+
+  <save-button>(//a|//button)[contains(text(), "Save")]</save-button>
+  <create-button>(//a|//button)[contains(text(), "Create")]</create-button>
+
+  <required-field-label>//*[contains(text(), "This field is required.")]</required-field-label>
+
+  <tab-name>//a[text()="{0}"]</tab-name>
+</common>

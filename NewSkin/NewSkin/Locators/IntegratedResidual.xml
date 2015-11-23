@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<IntegratedResidual>
+  <ResidualIncomeTab>//a[@title="Residual Income"]</ResidualIncomeTab>
+  <Imports>//a[@title="Imports"]</Imports>
+  <ImportNewButton>//a[@title="Import New"]</ImportNewButton>
+  <CalculationWizardButton>//a[@title="Calculation Wizard for December 2016"]</CalculationWizardButton>
+  <ProcessorType type="id">ImportIndexProcessor</ProcessorType> ProcessorType>
+  <FileFormat type="id">ImportIndexFileType</FileFormat>
+  <FileDate type="id">ImportIndexFileDate</FileDate>
+  <Date>//td[@class="day" and text()="26"]</Date>
+  <ChooseFile type="id">ImportIndexCsvFile</ChooseFile>
+  <ImportButton>//button[@title="Import"]</ImportButton>
+  <Count>//*[@id="related_positions_table"]/thead/tr[2]/th[7]/input</Count>
+  <NoMatchingRecords>//td[text()="No matching records found"]</NoMatchingRecords>
+
+  <Delete>//a[@title="Delete Imported File"]</Delete>
+  <Download>//a[@title="Download Imported File"]</Download>
+  <ViewTransactions>//a[@title="View Transactions"]</ViewTransactions>
+  <Export type="id">export</Export>
+  <CalculationWizard>//a[@title="Calculation Wizard"]</CalculationWizard>
+  <Startover>//a[@title="Startover"]</Startover>
+  <Step1>(//a[@title="Setup/Override Revenue Shares"])[2]</Step1>
+  <RevenuePercentage type="id">text1</RevenuePercentage>
+  <ApplyToAllOffices type="id">ResidualFileRevenueOrgrevenueshare</ApplyToAllOffices>
+  <Save>(//button[@title="Save"])[1]</Save>
+  <Cancel>//a[@title="Cancel"]</Cancel>
+  <SkipStep1>(//a[@title="Skip this step"])[2]</SkipStep1>
+  <Step2>(//a[@title="Setup/Override Revenue Adjustments"])[2]</Step2>
+  <RuleSetName type="id">RirPayoutRulesetRulesetName</RuleSetName>
+  <SaveStep2>//a[@title="Save"]</SaveStep2>
+  <RuleType type="id">rule_type0</RuleType>
+  <FlatAmount type="id">amount_field0</FlatAmount>
+  <AddRemove type="id">RirPayoutRulesetCustomRule0CalcType</AddRemove>
+  <SkipStep2>(//a[@title="Skip this step"])[2]</SkipStep2>
+  <Step4>(//a[@title="Publish Payouts"])[2]</Step4>
+  <Recalculate>(//a[@title="Recalculate"])[2]</Recalculate>
+  <Recalculate-Message>//*[text()="File already calculated."]</Recalculate-Message>
+  <ViewOfficePayouts>(//a[@title="View Office Payouts"])[2]</ViewOfficePayouts>
+  <ExportButton type="id">exportactions</ExportButton>
+  <Excel type="id">export_excel</Excel>
+  <Print type="id">print</Print>
+  <ViewReports>(//a[@title="View Reports"])[2]</ViewReports>
+  <PDF>//a[@title="Report in PDF Format"]</PDF>
+  <Email>//a[@title="E-Mail this Report"]</Email>
+  <ExcelIcon>//a[@title="Report in Excel format"]</ExcelIcon>
+  <CSVIcon>//a[@title="Report in CSV format with all Fields"]</CSVIcon>
+  <PayoutsTab>//a[@title="Payouts"]</PayoutsTab>
+  <ReportsTab>//a[text()="Reports"]</ReportsTab>
+  <SearchOffices>//a[@title="Search"]</SearchOffices>
+  <ResidualReportsTitle>//span[contains(text(), "Residual Reports")]</ResidualReportsTitle>
+  <CheckBoxFirst>//input[@type="checkbox"]</CheckBoxFirst>
+  <SendButton>//a[@title="Send"]</SendButton>
+  <MailSentSucessfully type="id">right</MailSentSucessfully>
+  <AllOffices type="id">sendtoAll</AllOffices>
+  <ReportTypeExcel type="id">attachtypeExls</ReportTypeExcel>
+  <ReportTypeCSV type="id">attachtypeCsv</ReportTypeCSV>
+  <Processor type="id">processor</Processor>
+  <FileDateReports type="id">file_date</FileDateReports>
+  <ReportBlue>//a[contains(@onclick, "payouts")]</ReportBlue>
+  <ReportingPeriod type="id">reporting_period</ReportingPeriod>
+  
+</IntegratedResidual>

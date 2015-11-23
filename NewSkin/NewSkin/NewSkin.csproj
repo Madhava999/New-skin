@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B67F92F4-DF2A-4748-905C-37447E97816E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NewSkin</RootNamespace>
+    <AssemblyName>NewSkin</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EasyHttp, Version=1.6.75.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\EasyHttp.1.6.75.0\lib\net40\EasyHttp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="JsonFx, Version=2.0.1209.2802, Culture=neutral, PublicKeyToken=315052dd637f8a52, processorArchitecture=MSIL">
+      <HintPath>..\packages\JsonFx.2.0.1209.2802\lib\net40\JsonFx.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Selenium.WebDriverBackedSelenium, Version=2.46.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.WebDriverBackedSelenium.2.46.0\lib\net40\Selenium.WebDriverBackedSelenium.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="ThoughtWorks.Selenium.Core, Version=2.46.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.RC.2.46.0\lib\net40\ThoughtWorks.Selenium.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebDriver, Version=2.46.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.WebDriver.2.46.0\lib\net40\WebDriver.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=2.46.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.Support.2.46.0\lib\net40\WebDriver.Support.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Compile Include="netfx\System\Xml\Linq\DynamicXml.cs" />
+    <Compile Include="PageHelper\ChyHelper.cs" />
+    <Compile Include="PageHelper\Comm\DriverHelper.cs" />
+    <Compile Include="PageHelper\Comm\DriverTestCase.cs" />
+    <Compile Include="PageHelper\Comm\DriverTestCase2.cs" />
+    <Compile Include="PageHelper\Comm\LocatorReader.cs" />
+    <Compile Include="PageHelper\Comm\XMLParse.cs" />
+    <Compile Include="PageHelper\LoginHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\OfficeFieldDictionary.cs" />
+    <Compile Include="Tests\SalesAgent2.cs" />
+    <Compile Include="Tests\BaseTest.cs" />
+    <Compile Include="Tests\AgentAndPartnersResidualPayouts.cs" />
+    <Compile Include="Tests\Themes.cs" />
+    <Compile Include="Tests\SalesAgent1.cs" />
+    <Compile Include="Tests\EmailIntegration.cs" />
+    <Compile Include="Tests\DigitalSignatures.cs" />
+    <Compile Include="Tests\CorporatePortal.cs" />
+    <Compile Include="Tests\iFrame.cs" />
+    <Compile Include="Tests\DocumentManager.cs" />
+    <Compile Include="Tests\PartnerPortal.cs" />
+    <Compile Include="Tests\PDFImportWizard1.cs" />
+    <Compile Include="Tests\ResidualAdjustment.cs" />
+    <Compile Include="Tests\LeadsAndClientManagement.cs" />
+    <Compile Include="Tests\ProductManagement.cs" />
+    <Compile Include="Tests\CustomizableDashboard.cs" />
+    <Compile Include="Tests\EquipmentManagement.cs" />
+    <Compile Include="Tests\PDFImportWizard2.cs" />
+    <Compile Include="Tests\TasksAndMeetings.cs" />
+    <Compile Include="Tests\TicketingSystem.cs" />
+    <Compile Include="Tests\MerchantPortal.cs" />
+    <Compile Include="Tests\CorporatePortal2.cs" />
+    <Compile Include="Tests\UniversalResidual.cs" />
+    <Compile Include="Tests\IntegratedResidual.cs" />
+    <Compile Include="Tests\Merger.cs" />
+    <Compile Include="Tests\Contacts.cs" />
+    <Compile Include="Tests\WebsiteApi.cs" />
+    <Compile Include="Util\Browser.cs" />
+    <Compile Include="Util\LocatorReader.cs" />
+    <Compile Include="Util\Pegasus.cs" />
+    <Compile Include="Util\Resources.cs" />
+    <Compile Include="Util\XmlReader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Locators\README.md" />
+    <None Include="packages.config" />
+    <None Include="Resources\contactsamples.csv" />
+    <None Include="Resources\ContactsTestCases.xlsx" />
+    <None Include="Resources\emptyfile" />
+    <None Include="Resources\fake.csv" />
+    <None Include="Resources\fake.pdf" />
+    <None Include="Resources\FNP_MPA.pdf" />
+    <None Include="Resources\leadsamples.csv" />
+    <None Include="Resources\MarineMPA.pdf" />
+    <None Include="Resources\opportunitysamples.csv" />
+    <None Include="Resources\real.pdf" />
+    <None Include="Resources\clientsamples.csv" />
+    <None Include="Resources\emptyfile" />
+    <None Include="Resources\rir_pegasus_samples.csv" />
+    <None Include="Resources\SelOfficePartnerResiduals.csv" />
+    <None Include="Tests\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\packages\Selenium.WebDriver.ChromeDriver.2.16.0.0\driver\chromedriver.exe">
+      <Link>chromedriver.exe</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\ApplicationSettings.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\Credentials.xml" />
+    <Content Include="Config\Config.xml" />
+    <Content Include="Locators\CorporatePortal2.xml" />
+    <Content Include="Locators\PDFImportWizard2.xml" />
+    <Content Include="Locators\PartnerPortal.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\PDFImportWizard2.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\TicketingSystem.xml" />
+    <Content Include="Locators\MerchantPortal.xml" />
+    <Content Include="Locators\UniversalResidual.xml" />
+    <Content Include="Locators\Common.xml" />
+    <Content Include="Locators\CustomizableDashboards.xml" />
+    <Content Include="Locators\Login.xml" />
+    <Content Include="Locators\Example.xml" />
+    <Content Include="Locators\Login2.xml" />
+    <Content Include="Locators\TasksAndMeetings.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\EquipmentManagement.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\ProductManagement.xml" />
+    <Content Include="Locators\PDFImportWizard1.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\Contacts.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\Merger.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\IntegratedResidual.xml" />
+    <Content Include="Locators\DocumentManager.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\iFrame.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\DigitalSignatures.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\EmailIntegration.xml" />
+    <Content Include="Locators\CorporatePortal.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\SalesAgent2.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\OfficeFieldDictionary.xml" />
+    <Content Include="Locators\SalesAgent1.xml" />
+    <Content Include="Locators\WebsiteApi.xml" />
+    <Content Include="Locators\Themes.xml" />
+    <Content Include="Locators\AgentAndPartnerResidualPayouts.xml" />
+    <Content Include="Resources\invalid.dll" />
+    <Content Include="Resources\invalid2.inf" />
+    <Content Include="Locators\LeadClientManagement.xml" />
+    <Content Include="Locators\ResidualAdjustment.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

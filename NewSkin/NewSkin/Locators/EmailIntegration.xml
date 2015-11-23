@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<email-integration>
+  <activities-tab>//a[@title="Activities"]</activities-tab>
+  <email-tab>//a[@title="E-Mails"]</email-tab>
+
+  <client-email>//tbody/tr[@tabindex="-1"]/td/a[contains(., "qaintern@")]</client-email>
+  <inbox>//div[@class="mail-box"]</inbox>
+
+  <compose>//a[@title="Compose E-Mail"]</compose>
+  <from type="id">EmailEmailAccounts</from>
+  <to type="id">EmailToAddrs</to>
+  <subject type="id">EmailName</subject>
+  <body>//div[@class="note-editable"]</body>
+  <send>//i[@class="fa fa-reply"]</send>
+ 
+  <email-accounts>//a[@title="E-Mail Accounts"]</email-accounts>
+  <valid-email>//table/tbody/tr[@tabindex="-1"]/td/a[text()="Valid Email"]</valid-email>
+  <create-account>//a[@title="Create New Account"]</create-account>
+  <account-name type="id">EmailAccountName</account-name>
+  <username type="id">EmailAccountUsername</username>
+  <password type="id">EmailAccountPassword</password>
+  <provider type="id">EmailAccountProvider</provider>
+  <exchange>//select[@id="EmailAccountProvider"]/option[text()="Exchange"]</exchange>
+  <hotmail>//select[@id="EmailAccountProvider"]/option[text()="Hotmail"]</hotmail>
+  <gmail1>//select[@id="EmailAccountProvider"]/option[text()="Gmail (IMAP)"]</gmail1>
+  <gmail2>//select[@id="EmailAccountProvider"]/option[text()="Gmail (POP3)"]</gmail2>
+  <yahoo1>//select[@id="EmailAccountProvider"]/option[text()="Yahoo (IMAP)"]</yahoo1>
+  <yahoo2>//select[@id="EmailAccountProvider"]/option[text()="Yahoo (POP3)"]</yahoo2>
+  <other1>//select[@id="EmailAccountProvider"]/option[text()="Other (IMAP)"]</other1>
+  <other2>//select[@id="EmailAccountProvider"]/option[text()="Other (POP3)"]</other2>
+  <server-address type="id">EmailAccountServer</server-address>
+  <connect-type type="id">EmailAccountEncription</connect-type>
+  <server-port type="id">EmailAccountPort</server-port>
+  <incoming-check>(//a[@title="Check Settings"])[1]</incoming-check>
+  <outgoing-check>(//a[@title="Check Settings"])[2]</outgoing-check>
+  <smtp-address type="id">EmailAccountOutServer</smtp-address>
+  <connect-type2 type="id">EmailAccountOutEncription</connect-type2>
+  <smtp-port type="id">EmailAccountOutPort</smtp-port>
+  <signature>//div[@class="note-editable"]</signature>
+  <connect-success>//div[@class="modal-body"]/p[contains(., "Successfully Connected")]</connect-success>
+  <connect-fail>//div[@class="modal-body"]/p[contains(., "Can't connect")]</connect-fail>
+  <send-success>//div[@class="modal-body"]/p[contains(., "Successfully Sent")]</send-success>
+  <send-fail>//div[@class="modal-body"]/p[contains(., "Failed")]</send-fail>
+
+  <sent-mail>//table/tbody/tr[@class="unread"]/td/a[text()="Valid Email "]</sent-mail>
+  <sent-subject>//h3</sent-subject>
+  <sent-signature>//p[contains(., 'signature')]</sent-signature>
+</email-integration>

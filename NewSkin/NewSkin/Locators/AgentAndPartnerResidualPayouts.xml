@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+  <ResidualIncome>
+    <ResidualIncomeTab><![CDATA[//a[@title="Residual Income"]]]></ResidualIncomeTab>
+    <OfficePayoutsTab><![CDATA[//a[@title="Office Payouts"]]]></OfficePayoutsTab>
+    <PayoutsSummaryTabOption><![CDATA[//a[@title="Payouts Summary"]]]></PayoutsSummaryTabOption>
+    <ImportsTabOption><![CDATA[//a[@title="Imports"]]]></ImportsTabOption>
+    <ImportNewButton><![CDATA[//a[@title="Import New"]]]></ImportNewButton>
+    <SelectProcessor><![CDATA[//*[@id="ImportIndexProcessor"]]]></SelectProcessor>
+    <SelectReportingMonth><![CDATA[//*[@id="ImportIndexReportingMonth"]]]></SelectReportingMonth>
+    <SelectReportingYear><![CDATA[//*[@id="ImportIndexReportingYear"]]]></SelectReportingYear>
+    <FileDateBox><![CDATA[//*[@id="ImportIndexFileDate"]]]></FileDateBox>
+    <ChooseFileDate><![CDATA[//html/body/div[4]/div[1]/table/tbody/tr[1]/td[2]]]></ChooseFileDate>
+    <UploadResidualFile><![CDATA[//*[@id="ImportIndexCsvFile"]]]></UploadResidualFile>
+    <ImportButton><![CDATA[//*[@title="Import"]]]></ImportButton>
+    <ProcessButton><![CDATA[//a[@title='Process']]]></ProcessButton>
+    <CalculationWizardButtonCorp><![CDATA[(//button[text()="Calculation Wizard"])[1]]]></CalculationWizardButtonCorp>
+    <SkipStep1><![CDATA[(//a[@title="Skip this step"])[2]]]></SkipStep1>
+    <CalculatePayoutsButtonCorp><![CDATA[(//a[@title="Calculate Payouts"])[2]]]></CalculatePayoutsButtonCorp>
+    <PublishPayoutsButton><![CDATA[(//a[@title="Publish Payouts"])[2]]]></PublishPayoutsButton>
+    <CalculationWizardButtonOffice><![CDATA[(//button [text()="Calculation Wizard"])[1]]]></CalculationWizardButtonOffice>
+    <AgentLookupButton><![CDATA[(//a[text()="Agent Lookup"])[2]]]></AgentLookupButton>
+    <CalculatePayoutsButtonOffice><![CDATA[(//a[@title="Calculate Payouts"])[2]]]></CalculatePayoutsButtonOffice>
+    <PublishPayoutsButtonOffice><![CDATA[(//a[@title="Calculate Payouts"])[3]]]></PublishPayoutsButtonOffice>
+    <DeleteFirstResidualFile><![CDATA[(//a[@title="Delete Imported File"])[1]]]></DeleteFirstResidualFile>
+  </ResidualIncome>
+
+  <Payouts>
+    <PayoutsSummaryTab><![CDATA[//a[@title='Payouts Summary']]]></PayoutsSummaryTab>
+    <PayoutsReportsTab><![CDATA[//a[@title='Reports']]]></PayoutsReportsTab>
+    <SpecificPayoutSummary1><![CDATA[(//a[text()="December 2016"])[1]]]></SpecificPayoutSummary1>
+    <SpecificPayoutSummary2><![CDATA[(//a[text()="Sales Agent"])[1]]]></SpecificPayoutSummary2>
+    <ResidualIncomeTab><![CDATA[//a[@title='Residual Income']]]></ResidualIncomeTab>
+    <UserPayoutsTab><![CDATA[//a[@title='User Payouts']]]></UserPayoutsTab>
+  </Payouts>
+ 
+</Locators>

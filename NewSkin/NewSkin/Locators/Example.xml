@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is an example locator file. All locators are xpaths by default,
+unless specified otherwise in the type variable. -->
+<example>
+  <example-id type="id">id1</example-id>
+  <example-class type="class">id1</example-class>
+  <example-xpath>//*[text()="XPath"]</example-xpath>
+  <example-xpath2 type="xpath">//*[text()="XPath2"]</example-xpath2>
+  <nested>
+    <example-xpath3>//*[text()="XPath3"]</example-xpath3>
+    <another-nesting>
+      <example-xpath4>//*[text()="XPath4"]</example-xpath4>
+    </another-nesting>
+  </nested>
+</example>

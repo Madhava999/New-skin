@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Locators>
+  <Navigate>
+    <ClickClientsTab><![CDATA[//*[@title="Clients"]]]></ClickClientsTab>
+    <ActivitiesTab><![CDATA[//*[@title="Activities"]]]></ActivitiesTab>
+    <TasksTab><![CDATA[//*[@title="Tasks"]]]></TasksTab>
+    <MeetingsTab><![CDATA[//*[@title="Meetings"]]]></MeetingsTab>
+    <HomeButton><![CDATA[//*[@title="Home"]]]></HomeButton>
+    <ClickCreateAMeeting><![CDATA[//*[@title="Create a Meeting"]]]></ClickCreateAMeeting>
+    <ClickCreateATask><![CDATA[//*[@title="Create a Task"]]]></ClickCreateATask>
+    <ViewUpcomingTasks><![CDATA[//*[@title="My Upcoming Tasks"]]]></ViewUpcomingTasks>
+    <ViewPastDueTasks><![CDATA[//*[@title="My Past Due Tasks"]]]></ViewPastDueTasks>
+    <PreviousMonthButton><![CDATA[//th[contains(@class,"prev")]]]></PreviousMonthButton>
+    <NextMonthButton><![CDATA[//th[contains(@class,"next")]]]></NextMonthButton>
+  </Navigate>
+  <CreateATask>
+    <ClickStartDateBox><![CDATA[//*[@id="TaskStartDate"]]]></ClickStartDateBox>
+    <ChooseStartDate><![CDATA[//td[text()="15"]]]></ChooseStartDate>
+    <ClickDueDateBox><![CDATA[//*[@id="TaskDueDate"]]]></ClickDueDateBox>
+    <ChooseDueDate><![CDATA[//td[text()="15"]]]></ChooseDueDate>
+    <ClickSaveButton><![CDATA[//*[@title="Save"]]]></ClickSaveButton>
+    <EnterSubject><![CDATA[//*[@id="TaskName"]]]></EnterSubject>
+    <ChooseFutureStartDate><![CDATA[//td[@class='day' and text()='8']]]></ChooseFutureStartDate>
+    <ChooseFutureDueDate><![CDATA[//td[@class='day' and text()='8']]]></ChooseFutureDueDate>
+    <ChoosePastStartDate><![CDATA[//td[@class='day' and text()='6']]]></ChoosePastStartDate>
+    <ChoosePastDueDate><![CDATA[//td[@class='day' and text()='6']]]></ChoosePastDueDate>
+    <ViewCalendarTasks><![CDATA[(//span[contains(text(),"Tasks")])[1]]]></ViewCalendarTasks>
+    <!-- <ViewCalendarTasks><![CDATA[//*[@id="meetings"]/div[2]/div/table/tbody/tr/td/div/div/div[1]/div[2]/table/tbody/tr/td[1]/a/div/span]]></ViewCalendarTasks> -->
+    <ChooseFirstCalendarStartDay><![CDATA[//html/body/div[5]/div[1]/table/tbody/tr[1]/td[1]]]></ChooseFirstCalendarStartDay>
+    <ChooseFirstCalendarEndDay><![CDATA[//html/body/div[5]/div[1]/table/tbody/tr[1]/td[2]]]></ChooseFirstCalendarEndDay>
+  </CreateATask>
+  <CreateAMeeting>
+    <EnterIntoSearchByIDBox><![CDATA[//*[@id="ClientId"]]]></EnterIntoSearchByIDBox>
+    <EnterIntoSearchByNameBox><![CDATA[//*[@id="ClientCompanyDbaName"]]]></EnterIntoSearchByNameBox>
+    <ClickSearchButton><![CDATA[//*[@id="searchButton"]]]></ClickSearchButton>
+    <ClickStartDateBox><![CDATA[//*[@id="MeetingStartDate"]]]></ClickStartDateBox>
+    <ChooseStartDate><![CDATA[//td[text()="15"]]]></ChooseStartDate>
+    <ClickEndDateBox><![CDATA[//*[@id="MeetingEndDate"]]]></ClickEndDateBox>
+    <ChooseEndDate><![CDATA[//td[text()="15"]]]></ChooseEndDate>
+    <ClickSaveButton><![CDATA[//*[@title="Save"]]]></ClickSaveButton>
+    <EnterSubject><![CDATA[//*[@id="MeetingName"]]]></EnterSubject>
+    <SelectFromRelatedToBox><![CDATA[//*[@id="MeetingParentType"]]]></SelectFromRelatedToBox>
+    <SelectTypeClient><![CDATA[//option[text()="Client"]]]></SelectTypeClient>
+    <ClickChooseClient><![CDATA[//*[@id="assignParent"]]]></ClickChooseClient>
+    <ChooseClient><![CDATA[//a[text()="Chy Company"]]]></ChooseClient>
+    <ClickNewMeeting><![CDATA[//*[@title="New Meeting"]]]></ClickNewMeeting>
+    <VerifyRelatedToValue><![CDATA[//*[@id="MeetingParentName"]]]></VerifyRelatedToValue>
+    <SelectMeeting><![CDATA[//*[@title='Test Meeting 201508071609553907']]]></SelectMeeting>
+    <ClickPopupReminder><![CDATA[//*[@value="popup"]]]></ClickPopupReminder>
+    <ClickEmailReminder><![CDATA[//*[@value="email"]]]></ClickEmailReminder>
+    <ClickPopupReminderSelectionBox><![CDATA[//*[@id="popupdiv"]/select]]></ClickPopupReminderSelectionBox>
+    <ClickEmailReminderSelectionBox><![CDATA[//*[@id="emaildiv"]/select]]></ClickEmailReminderSelectionBox>
+    <SelectPopupTime><![CDATA[//*[@id="popupdiv"]/select/option[4]]]></SelectPopupTime>
+    <SelectEmailTime><![CDATA[//*[@id="emaildiv"]/select/option[4]]]></SelectEmailTime>
+    <ViewCalendarMeetings><![CDATA[(//span[contains(text(),'Meetings')])[1]]]></ViewCalendarMeetings>
+    <!--<ViewCalendarMeetings><![CDATA[//*[@id="meetings"]/div[2]/div/table/tbody/tr/td/div/div/div[1]/div[2]/table/tbody/tr[1]/td[1]/a/div/span]]></ViewCalendarMeetings>-->
+    <ChooseFirstCalendarDay><![CDATA[//table[contains(@class," table-condensed")]/tbody/tr[1]/td[1]]]></ChooseFirstCalendarDay>
+    <ChooseTodaysDate><![CDATA[//td[text()='15']]]></ChooseTodaysDate>
+    <ChooseFirstEndDate><![CDATA[//td[contains(@class,'day') and text()='13']]]></ChooseFirstEndDate>
+  </CreateAMeeting>
+</Locators>
